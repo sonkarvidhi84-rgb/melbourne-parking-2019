@@ -48,6 +48,7 @@ html,body{margin:0;background:var(--color-bg);color:var(--color-fg);font-family:
 .pk .maptools button { width: 32px; height: 32px; padding: 0; font-size: 16px; }
 .pk .legend { position: absolute; left: 10px; bottom: 10px; background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: 6px 10px; font-size: var(--cds-font-size-caption); z-index: 2; display: flex; flex-direction: column; gap: 4px; max-width: 240px; }
 .pk .legend .row { display: flex; align-items: center; gap: 6px; }
+.pk .legend[hidden] { display: none; }
 .pk .sw { display: inline-block; width: 10px; height: 10px; border-radius: 50%; flex: none; }
 .pk .grad { height: 8px; width: 140px; border-radius: 4px; background: linear-gradient(90deg, #d73027, #fc8d59, #fee08b, #d9ef8b, #91cf60, #1a9850); }
 .pk .tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); box-shadow: var(--cds-shadow-popover); border-radius: var(--cds-radius); padding: 6px 9px; font-size: var(--cds-font-size-caption); max-width: 260px; z-index: 4; line-height: 1.4; }

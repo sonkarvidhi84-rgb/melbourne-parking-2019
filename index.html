@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Melbourne parking 2019</title>
 <link rel="stylesheet" href="style.css">
-<script>window.PK_DATA_DIR = "data/";</script>
 <script src="d3.min.js"></script>
+<script>window.PK_DATA_DIR = "data/";</script>
 <script src="dash-lite.js"></script>
 </head>
 <body>
@@ -34,6 +34,7 @@
       <select class="dash-select" id="pk-mode" aria-label="Map colouring">
         <option value="moment">Status at this moment</option>
         <option value="typical">Typical for this day type and hour</option>
+        <option value="landuse">Land-use type of the area</option>
       </select>
     </label>
     <label class="ctl">Show
@@ -56,7 +57,7 @@
   </section>
 
   <section class="mapgrid" id="map-section">
-    <div class="card mapbox" id="map" data-source="bays segments streets">
+    <div class="card mapbox" id="map" data-source="bays segments streets area_landuse">
       <div class="maptools">
         <button type="button" class="pkbtn" id="pk-zin" aria-label="Zoom in">+</button>
         <button type="button" class="pkbtn" id="pk-zout" aria-label="Zoom out">−</button>
@@ -69,6 +70,15 @@
         <div class="row"><span class="sw" style="background: #9aa0a6"></span>No sensor reading</div>
         <div class="row"><span>Full</span><span class="grad"></span><span>Free</span></div>
         <div class="muted">Block shading and “typical” colours = share of bays free</div>
+      </div>
+      <div class="legend" id="map-legend-lu" hidden>
+        <div class="row"><span class="sw" data-lu="0"></span>CBD office core</div>
+        <div class="row"><span class="sw" data-lu="1"></span>CBD mixed: offices, shops &amp; dining</div>
+        <div class="row"><span class="sw" data-lu="2"></span>Shopping, markets &amp; dining</div>
+        <div class="row"><span class="sw" data-lu="3"></span>Mixed-use: apartments with shops &amp; offices</div>
+        <div class="row"><span class="sw" data-lu="4"></span>Mainly residential</div>
+        <div class="row"><span class="sw" data-lu="5"></span>Institutional: health &amp; government</div>
+        <div class="muted">Land-use type of each bay’s sensor area (2019 land-use census)</div>
       </div>
     </div>
     <aside class="card detail" id="detail">
@@ -91,9 +101,75 @@
         <option value="Saturday">Saturday</option>
         <option value="Sunday/holiday">Sunday / public holiday</option>
       </select>
-      <span class="muted">Average share of bays free over 2019, by sensor area (rows sorted by midday availability, fullest first). Click a row to zoom the map there.</span>
+      <span class="muted">Average share of bays free over 2019, by sensor area (rows sorted by midday availability, fullest first). Click a row to zoom the map there. The small square beside each name is the area’s land-use type, coloured as in the section below.</span>
     </div>
-    <div class="chart" data-draw="heatmap" data-source="area_hour"></div>
+    <div class="chart" data-draw="heatmap" data-source="area_hour area_landuse"></div>
+  </section>
+
+  <section class="card" id="landuse-card">
+    <h2>Parking availability by type of area, hour by hour</h2>
+    <p class="sub">Each sensor area is labelled residential, mixed-use, shopping, office or institutional from the 2019 land-use census (CLUE): the kinds of businesses within 120 m of its bays and how many there are per bay. Lines show the average share of bays free in each type of area, weighted by bays reporting.</p>
+    <p class="lead" data-draw="lu-takeaway">—</p>
+    <div class="seg-select">
+      <span class="muted">Day type</span>
+      <select class="dash-select" id="pk-lu-dt" aria-label="Day type for land-use chart">
+        <option value="Weekday">Weekday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday/holiday">Sunday / public holiday</option>
+      </select>
+      <button type="button" class="pkbtn" id="pk-show-landuse">Colour the map by land-use type</button>
+    </div>
+    <div class="chart" data-draw="luchart" data-source="landuse_hour" style="min-height: 280px"></div>
+    <div class="muted" style="display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: var(--cds-gap-xs)">
+      <span><span class="sw" data-lu="0"></span> CBD office core</span>
+      <span><span class="sw" data-lu="1"></span> CBD mixed: offices, shops &amp; dining</span>
+      <span><span class="sw" data-lu="2"></span> Shopping, markets &amp; dining</span>
+      <span><span class="sw" data-lu="3"></span> Mixed-use: apartments with shops &amp; offices</span>
+      <span><span class="sw" data-lu="4"></span> Mainly residential</span>
+      <span><span class="sw" data-lu="5"></span> Institutional: health &amp; government</span>
+    </div>
+    <p class="sub" style="margin-top: var(--cds-gap-xs)">The vertical line is the hour set by the time slider. Click the chart to move the map to that hour.</p>
+    <h2 style="margin-top: var(--cds-gap-md)">Every hour, every day type at a glance</h2>
+    <p class="sub">Each square is the average share of bays free for one type of area at one hour. Red is full, yellow is about half free, green is mostly free. Click a square to show that day type and hour above and on the map.</p>
+    <div class="chart" data-draw="luheat" data-source="landuse_hour" style="min-height: 180px"></div>
+    <div class="two" style="margin-top: var(--cds-gap-md)">
+      <div>
+        <h2>Fullest and emptiest hour for each type</h2>
+        <p class="sub">For the day type picked above: the red dot is the fullest hour, the green dot the emptiest, and the short dark mark is the day average. A long bar means availability swings a lot through the day.</p>
+        <div class="chart" data-draw="ludumbbell" data-source="landuse_peak" style="min-height: 230px"></div>
+        <div class="tablewrap">
+          <table data-source="landuse_peak" data-row-key="land_use,day_type" id="lu-peak-table">
+            <thead><tr><th data-field="land_use">Type of area</th><th class="n" data-field="fullest_hour">Fullest at</th><th class="n" data-field="min_free_pct">% free then</th><th class="n" data-field="emptiest_hour">Emptiest at</th><th class="n" data-field="max_free_pct">% free then</th><th class="n" data-field="avg_free_pct">Day average % free</th></tr></thead>
+            <tbody data-draw="lupeak"></tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <h2>What kinds of businesses each type has</h2>
+        <p class="sub">Share of 2019 businesses near the bays, by industry, for all areas of each type together. This is what the labels are based on.</p>
+        <div class="chart" data-draw="lumix" data-source="landuse_mix" style="min-height: 270px"></div>
+        <div class="muted" style="display: flex; flex-wrap: wrap; gap: 4px 12px; margin: var(--cds-gap-xs) 0 var(--cds-gap-md)">
+          <span><span class="sw" data-mix="0"></span> Offices</span>
+          <span><span class="sw" data-mix="1"></span> Shops</span>
+          <span><span class="sw" data-mix="2"></span> Cafés &amp; restaurants</span>
+          <span><span class="sw" data-mix="3"></span> Hotels &amp; student housing</span>
+          <span><span class="sw" data-mix="4"></span> Health</span>
+          <span><span class="sw" data-mix="5"></span> Education</span>
+          <span><span class="sw" data-mix="6"></span> Government</span>
+          <span><span class="sw" data-mix="7"></span> Arts &amp; recreation</span>
+          <span><span class="sw" data-mix="8"></span> Trades, warehousing &amp; industry</span>
+          <span><span class="sw" data-mix="9"></span> Personal services</span>
+        </div>
+        <h2>Which areas are which type</h2>
+        <div class="tablewrap" style="max-height: 360px">
+          <table data-source="area_landuse" data-row-key="area" id="lu-area-table">
+            <thead><tr><th data-field="area">Sensor area</th><th data-field="land_use">Type</th><th data-field="place">Where</th><th class="n" data-field="sensor_bays">Bays</th><th class="n" data-field="businesses_per_bay">Businesses per bay</th><th data-field="main_uses">Main business types</th></tr></thead>
+            <tbody data-draw="luareas"></tbody>
+          </table>
+        </div>
+        <p class="sub" style="margin-top: var(--cds-gap-xs)">Click a row to colour the map by type and zoom to that area.</p>
+      </div>
+    </div>
   </section>
 
   <section class="two" id="price-section">
@@ -149,11 +225,14 @@
       <li>“Typical” colours use the 2019 average for the selected day type (weekday, Saturday, or Sunday and Victorian public holidays) and hour.</li>
       <li>Prices are estimates. The City’s 2018–19 budget set on-street rates at $7.00/h in the central city and $4.00/h (≤2h), $2.50/h (3h), $2.20/h (4h) outside it, phased in during the second half of 2018 (ABC News, 15 May 2018). Each bay’s rate here comes from its 2019 sign (meter or ticket) and whether its block is inside the Hoddle Grid. Loading zones, disabled bays and unmetered bays are counted as free. Actual meter rates could differ by block and time of day.</li>
       <li>Restriction signs come from the most-seen sign for each sensor in 2019; time limits from the City’s current bay-restriction table where the sign was blank, so a few may differ from 2019.</li>
+      <li>Land-use types: every 2019 business in the City of Melbourne land-use census (CLUE) was assigned to the nearest sensor bay within 120 m and grouped by industry. Each area’s type comes from that mix and from how many businesses it has per bay. The census file counts businesses, not homes, so “Mainly residential” and “Mixed-use” are inferred from few businesses per bay outside the CBD; the City’s 2019 residential-dwellings data would confirm them. “Domain” is the residential streets of South Yarra west, not the parkland. The area the data calls “All” is mostly the back streets of East Melbourne and Jolimont (341 of its 367 bays). Kensington has a single bay.</li>
     </ul>
   </details>
 </div>
 </div>
 </div>
 <script src="app.js"></script>
+<script src="landuse.js"></script>
+<script src="landuse2.js"></script>
 </body>
 </html>

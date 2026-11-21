@@ -215,16 +215,21 @@ dash.calc('price_peak', {
         return [[d.street + ' — ' + d.block], [d.area + ' · ' + d.bays + ' bays · est. $' + (+d.typical_rate).toFixed(2) + '/h', 'm'],
           [smap ? `Now: ${c[0]} vacant of ${c[1]} reporting` : 'Status loading…'], [tv == null ? 'Typical: no data' : 'Typical ' + PK.pct(tv) + ' free at this hour', 'm']]; };
       made.bayTip = (d) => { const st = PK.bayState(smap, d.bay); const p = PK.profVal(d.prof, dt, hr);
-        return [['Bay ' + d.bay + ' · marker ' + d.marker], [d.street + ' (' + d.between1 + ' – ' + d.between2 + ')', 'm'], [d.sign || 'No sign recorded', 'm'],
+        const lu = PK.luRow ? PK.luRow(d.area) : null;
+        return [['Bay ' + d.bay + ' · marker ' + d.marker], [d.street + ' (' + d.between1 + ' – ' + d.between2 + ')', 'm'], [d.area + (lu ? ' · ' + lu.land_use : ''), 'm'], [d.sign || 'No sign recorded', 'm'],
           [['No reading', 'Vacant', 'Occupied'][st] + ' at ' + PK.slotLabel(PK.slot)], [p == null ? '' : 'Usually occupied ' + PK.pct(p) + ' of the time at this hour', 'm']]; };
+      const LUm = PK.luMap ? PK.luMap() : null;
+      const luFill = (area) => { const i = LUm && LUm.get(area); return i == null ? 'var(--cds-chart-muted)' : PK.luCol(i); };
       const showSegs = PK.layer !== 'bays', showBays = PK.layer !== 'segs';
       made.gSegs.style('display', showSegs ? null : 'none'); made.gBays.style('display', showBays ? null : 'none');
       made.gSegs.selectAll('path').style('fill', (d) => {
         let f;
+        if (PK.mode === 'landuse') return luFill(d.area);
         if (PK.mode === 'typical') f = PK.profVal(d.prof, dt, hr); else { const c = segCount.get(d.seg); f = c && c[1] ? c[0] / c[1] : null; }
         return f == null ? 'var(--cds-chart-muted)' : PK.freeColor(f);
       }).style('fill-opacity', PK.layer === 'segs' ? 0.9 : 0.45);
       made.gBays.selectAll('circle').style('fill', (d) => {
+        if (PK.mode === 'landuse') return luFill(d.area);
         if (PK.mode === 'typical') { const p = PK.profVal(d.prof, dt, hr); return p == null ? '#9aa0a6' : PK.freeColor(1 - p); }
         return PK.stateFill[PK.bayState(smap, d.bay)];
       });
@@ -278,7 +283,9 @@ dash.calc('price_peak', {
       host.append('div').style('font-size', 'var(--cds-font-size-heading)').style('color', PK.stateFill[st]).text(smap ? ['No sensor reading', 'Vacant', 'Occupied'][st] + ' at ' + PK.slotLabel(PK.slot) : 'Loading…');
       const dl = host.append('dl').attr('class', 'facts');
       const fact = (k, v, f) => { dl.append('dt').text(k); const dd = dl.append('dd').text(v); if (f) { dd.attr('data-source', 'bays').attr('data-field', f).attr('data-where', 'bay=' + encodeURIComponent(b.bay)); } };
-      fact('Street marker', b.marker, 'marker'); fact('Area', b.area, 'area'); fact('Sign (2019)', b.sign || '—', 'sign');
+      fact('Street marker', b.marker, 'marker'); fact('Area', b.area, 'area');
+      { const lu = PK.luRow ? PK.luRow(b.area) : null; if (lu) { dl.append('dt').text('Land-use type'); dl.append('dd').attr('data-source', 'area_landuse').attr('data-field', 'land_use').attr('data-where', 'area=' + encodeURIComponent(b.area)).text(lu.land_use); } }
+      fact('Sign (2019)', b.sign || '—', 'sign');
       fact('Time limit', b.limit_min ? (+b.limit_min >= 60 ? (+b.limit_min / 60) + ' h' : b.limit_min + ' min') : '—', null);
       fact('Est. 2019 rate', +b.rate > 0 ? '$' + (+b.rate).toFixed(2) + ' per hour' : 'Free (no meter)', null);
       fact('Loading zone', +b.loading_zone ? 'Yes' : 'No', null); fact('Sensor active', b.first + ' to ' + b.last, null);
@@ -381,6 +388,7 @@ dash.calc('price_peak', {
       .style('fill', (d) => d.free_pct == null || d.free_pct === '' ? 'var(--cds-chart-muted)' : PK.freeColor(+d.free_pct / 100))
       .on('mousemove', (ev, d) => { const [px, py] = d3.pointer(ev, el); tip.style('display', null).selectAll('*').remove(); tip.append('div').text(d.area + ' · ' + d.hour); tip.append('div').attr('class', 'm').text(d.free_pct == null ? 'no data' : (+d.free_pct).toFixed(0) + '% of bays free · ~' + Math.round(+d.avg_reporting_bays) + ' bays reporting'); let lx = px + 12; if (lx > el.clientWidth - 220) lx = px - 220; tip.style('left', lx + 'px').style('top', (py + 10) + 'px'); })
       .on('mouseleave', () => tip.style('display', 'none'));
+    rowsG.append('rect').attr('class', 'lu-dot').attr('x', 2).attr('y', ch / 2 - 4).attr('width', 8).attr('height', 8).attr('rx', 2).style('fill', (a) => (PK.luColor ? PK.luColor(a) : 'none'));
   });
 
   dash.draw('pricechart', (el) => {
