@@ -1,0 +1,1777 @@
+area,day_type,hour,free_pct,avg_reporting_bays
+All,Weekday,06:00,62.0,353.6
+All,Weekday,07:00,56.9,353.8
+All,Weekday,08:00,49.3,353.8
+All,Weekday,09:00,39.3,353.7
+All,Weekday,10:00,35.2,353.3
+All,Weekday,11:00,33.9,353.3
+All,Weekday,12:00,35.3,353.2
+All,Weekday,13:00,36.9,353.0
+All,Weekday,14:00,39.1,352.7
+All,Weekday,15:00,45.3,352.3
+All,Weekday,16:00,50.1,352.1
+All,Weekday,17:00,53.7,352.1
+All,Weekday,18:00,55.8,352.0
+All,Weekday,19:00,54.7,352.0
+All,Weekday,20:00,55.4,351.9
+All,Weekday,21:00,56.2,351.8
+All,Saturday,06:00,63.5,354.8
+All,Saturday,07:00,62.2,354.7
+All,Saturday,08:00,60.5,354.4
+All,Saturday,09:00,59.9,354.4
+All,Saturday,10:00,58.5,354.0
+All,Saturday,11:00,56.4,353.7
+All,Saturday,12:00,56.4,353.7
+All,Saturday,13:00,54.8,353.4
+All,Saturday,14:00,51.4,352.7
+All,Saturday,15:00,50.8,352.3
+All,Saturday,16:00,52.6,352.1
+All,Saturday,17:00,56.9,352.0
+All,Saturday,18:00,56.1,352.1
+All,Saturday,19:00,53.8,352.1
+All,Saturday,20:00,54.0,352.0
+All,Saturday,21:00,54.1,351.8
+All,Sunday/holiday,06:00,63.1,353.0
+All,Sunday/holiday,07:00,61.3,352.8
+All,Sunday/holiday,08:00,59.4,352.6
+All,Sunday/holiday,09:00,58.3,352.4
+All,Sunday/holiday,10:00,55.7,352.5
+All,Sunday/holiday,11:00,51.8,352.4
+All,Sunday/holiday,12:00,49.7,352.2
+All,Sunday/holiday,13:00,50.4,351.8
+All,Sunday/holiday,14:00,49.9,351.8
+All,Sunday/holiday,15:00,48.9,351.7
+All,Sunday/holiday,16:00,50.5,351.4
+All,Sunday/holiday,17:00,51.5,351.2
+All,Sunday/holiday,18:00,56.4,351.3
+All,Sunday/holiday,19:00,58.3,351.3
+All,Sunday/holiday,20:00,59.6,351.2
+All,Sunday/holiday,21:00,59.7,351.2
+Banks,Weekday,06:00,56.1,27.1
+Banks,Weekday,07:00,53.8,27.1
+Banks,Weekday,08:00,55.5,27.2
+Banks,Weekday,09:00,50.3,27.2
+Banks,Weekday,10:00,38.1,27.1
+Banks,Weekday,11:00,34.0,27.0
+Banks,Weekday,12:00,34.7,27.0
+Banks,Weekday,13:00,34.7,27.0
+Banks,Weekday,14:00,36.8,27.0
+Banks,Weekday,15:00,41.8,26.9
+Banks,Weekday,16:00,51.4,26.9
+Banks,Weekday,17:00,57.8,26.8
+Banks,Weekday,18:00,56.3,26.9
+Banks,Weekday,19:00,47.4,26.9
+Banks,Weekday,20:00,42.2,26.9
+Banks,Weekday,21:00,44.0,26.7
+Banks,Saturday,06:00,69.5,26.7
+Banks,Saturday,07:00,65.4,26.7
+Banks,Saturday,08:00,60.8,26.5
+Banks,Saturday,09:00,56.9,26.4
+Banks,Saturday,10:00,49.5,26.3
+Banks,Saturday,11:00,45.3,26.5
+Banks,Saturday,12:00,47.1,26.4
+Banks,Saturday,13:00,47.9,26.5
+Banks,Saturday,14:00,46.1,26.4
+Banks,Saturday,15:00,47.1,26.4
+Banks,Saturday,16:00,53.3,26.5
+Banks,Saturday,17:00,59.7,26.5
+Banks,Saturday,18:00,55.2,26.3
+Banks,Saturday,19:00,42.7,26.3
+Banks,Saturday,20:00,33.4,26.3
+Banks,Saturday,21:00,31.7,26.2
+Banks,Sunday/holiday,06:00,71.5,26.4
+Banks,Sunday/holiday,07:00,68.4,26.4
+Banks,Sunday/holiday,08:00,63.0,26.4
+Banks,Sunday/holiday,09:00,55.8,26.4
+Banks,Sunday/holiday,10:00,47.7,26.4
+Banks,Sunday/holiday,11:00,38.0,26.4
+Banks,Sunday/holiday,12:00,34.5,26.3
+Banks,Sunday/holiday,13:00,34.5,26.1
+Banks,Sunday/holiday,14:00,36.2,26.1
+Banks,Sunday/holiday,15:00,38.3,26.0
+Banks,Sunday/holiday,16:00,41.7,26.3
+Banks,Sunday/holiday,17:00,43.6,26.3
+Banks,Sunday/holiday,18:00,41.0,26.3
+Banks,Sunday/holiday,19:00,37.6,26.2
+Banks,Sunday/holiday,20:00,36.2,26.1
+Banks,Sunday/holiday,21:00,41.6,26.0
+Chinatown,Weekday,06:00,64.1,26.7
+Chinatown,Weekday,07:00,54.8,26.6
+Chinatown,Weekday,08:00,60.4,26.6
+Chinatown,Weekday,09:00,51.4,26.6
+Chinatown,Weekday,10:00,28.1,26.6
+Chinatown,Weekday,11:00,18.5,26.6
+Chinatown,Weekday,12:00,16.5,26.6
+Chinatown,Weekday,13:00,16.7,26.6
+Chinatown,Weekday,14:00,19.3,26.6
+Chinatown,Weekday,15:00,24.7,26.6
+Chinatown,Weekday,16:00,30.2,26.6
+Chinatown,Weekday,17:00,33.2,26.6
+Chinatown,Weekday,18:00,23.1,26.6
+Chinatown,Weekday,19:00,15.0,26.6
+Chinatown,Weekday,20:00,13.9,26.6
+Chinatown,Weekday,21:00,16.8,26.5
+Chinatown,Saturday,06:00,72.7,26.6
+Chinatown,Saturday,07:00,72.5,26.6
+Chinatown,Saturday,08:00,69.2,26.5
+Chinatown,Saturday,09:00,52.3,26.5
+Chinatown,Saturday,10:00,34.4,26.3
+Chinatown,Saturday,11:00,25.5,26.3
+Chinatown,Saturday,12:00,21.2,26.4
+Chinatown,Saturday,13:00,18.4,26.4
+Chinatown,Saturday,14:00,17.5,26.3
+Chinatown,Saturday,15:00,19.3,26.5
+Chinatown,Saturday,16:00,22.7,26.5
+Chinatown,Saturday,17:00,22.5,26.4
+Chinatown,Saturday,18:00,15.8,26.2
+Chinatown,Saturday,19:00,12.7,26.2
+Chinatown,Saturday,20:00,11.5,26.2
+Chinatown,Saturday,21:00,12.1,26.2
+Chinatown,Sunday/holiday,06:00,61.2,26.1
+Chinatown,Sunday/holiday,07:00,61.1,26.2
+Chinatown,Sunday/holiday,08:00,59.6,26.2
+Chinatown,Sunday/holiday,09:00,49.4,26.2
+Chinatown,Sunday/holiday,10:00,29.7,26.2
+Chinatown,Sunday/holiday,11:00,16.2,26.2
+Chinatown,Sunday/holiday,12:00,11.2,26.2
+Chinatown,Sunday/holiday,13:00,10.3,26.2
+Chinatown,Sunday/holiday,14:00,12.5,26.2
+Chinatown,Sunday/holiday,15:00,13.9,26.2
+Chinatown,Sunday/holiday,16:00,15.0,26.3
+Chinatown,Sunday/holiday,17:00,13.6,26.3
+Chinatown,Sunday/holiday,18:00,10.9,26.2
+Chinatown,Sunday/holiday,19:00,11.3,26.2
+Chinatown,Sunday/holiday,20:00,12.9,26.2
+Chinatown,Sunday/holiday,21:00,16.0,26.1
+City Square,Weekday,06:00,70.9,24.3
+City Square,Weekday,07:00,54.2,24.3
+City Square,Weekday,08:00,44.6,24.3
+City Square,Weekday,09:00,35.5,24.3
+City Square,Weekday,10:00,16.5,24.3
+City Square,Weekday,11:00,12.3,24.3
+City Square,Weekday,12:00,11.8,24.3
+City Square,Weekday,13:00,11.8,24.3
+City Square,Weekday,14:00,14.4,24.3
+City Square,Weekday,15:00,18.4,24.3
+City Square,Weekday,16:00,25.1,24.3
+City Square,Weekday,17:00,36.5,24.3
+City Square,Weekday,18:00,30.0,24.3
+City Square,Weekday,19:00,11.9,24.3
+City Square,Weekday,20:00,11.4,24.3
+City Square,Weekday,21:00,17.3,24.2
+City Square,Saturday,06:00,81.8,24.4
+City Square,Saturday,07:00,78.9,24.4
+City Square,Saturday,08:00,72.7,24.4
+City Square,Saturday,09:00,52.9,24.4
+City Square,Saturday,10:00,34.7,24.3
+City Square,Saturday,11:00,24.0,24.4
+City Square,Saturday,12:00,22.5,24.4
+City Square,Saturday,13:00,18.9,24.4
+City Square,Saturday,14:00,15.9,24.4
+City Square,Saturday,15:00,19.4,24.3
+City Square,Saturday,16:00,24.9,24.4
+City Square,Saturday,17:00,31.8,24.4
+City Square,Saturday,18:00,19.8,24.2
+City Square,Saturday,19:00,9.4,24.1
+City Square,Saturday,20:00,7.7,24.1
+City Square,Saturday,21:00,8.1,24.0
+City Square,Sunday/holiday,06:00,78.1,23.9
+City Square,Sunday/holiday,07:00,77.5,23.9
+City Square,Sunday/holiday,08:00,71.4,23.9
+City Square,Sunday/holiday,09:00,55.2,24.0
+City Square,Sunday/holiday,10:00,33.3,24.0
+City Square,Sunday/holiday,11:00,15.0,24.0
+City Square,Sunday/holiday,12:00,12.1,24.1
+City Square,Sunday/holiday,13:00,11.0,24.1
+City Square,Sunday/holiday,14:00,12.1,24.0
+City Square,Sunday/holiday,15:00,14.0,23.9
+City Square,Sunday/holiday,16:00,16.4,24.0
+City Square,Sunday/holiday,17:00,15.2,24.0
+City Square,Sunday/holiday,18:00,10.8,24.0
+City Square,Sunday/holiday,19:00,10.0,24.0
+City Square,Sunday/holiday,20:00,11.9,23.9
+City Square,Sunday/holiday,21:00,16.9,23.9
+County,Weekday,06:00,68.2,53.7
+County,Weekday,07:00,69.2,53.5
+County,Weekday,08:00,66.9,53.6
+County,Weekday,09:00,62.3,53.8
+County,Weekday,10:00,38.7,53.7
+County,Weekday,11:00,26.9,53.6
+County,Weekday,12:00,29.0,53.6
+County,Weekday,13:00,31.4,53.7
+County,Weekday,14:00,33.2,53.5
+County,Weekday,15:00,42.8,53.2
+County,Weekday,16:00,62.7,52.8
+County,Weekday,17:00,67.2,52.9
+County,Weekday,18:00,65.5,53.2
+County,Weekday,19:00,46.8,53.4
+County,Weekday,20:00,34.5,53.3
+County,Weekday,21:00,34.7,53.2
+County,Saturday,06:00,72.3,53.3
+County,Saturday,07:00,74.4,53.2
+County,Saturday,08:00,73.9,53.1
+County,Saturday,09:00,68.6,53.0
+County,Saturday,10:00,66.7,52.9
+County,Saturday,11:00,62.2,52.8
+County,Saturday,12:00,60.7,52.7
+County,Saturday,13:00,57.6,52.7
+County,Saturday,14:00,56.2,52.7
+County,Saturday,15:00,58.7,52.6
+County,Saturday,16:00,61.9,52.6
+County,Saturday,17:00,60.8,52.6
+County,Saturday,18:00,46.9,52.6
+County,Saturday,19:00,26.4,52.6
+County,Saturday,20:00,16.1,52.7
+County,Saturday,21:00,14.6,52.6
+County,Sunday/holiday,06:00,64.5,52.9
+County,Sunday/holiday,07:00,62.2,52.9
+County,Sunday/holiday,08:00,50.7,52.9
+County,Sunday/holiday,09:00,29.8,52.8
+County,Sunday/holiday,10:00,21.9,52.7
+County,Sunday/holiday,11:00,18.9,52.7
+County,Sunday/holiday,12:00,18.5,52.8
+County,Sunday/holiday,13:00,18.0,52.7
+County,Sunday/holiday,14:00,18.0,52.7
+County,Sunday/holiday,15:00,19.4,52.7
+County,Sunday/holiday,16:00,21.9,52.8
+County,Sunday/holiday,17:00,27.2,52.7
+County,Sunday/holiday,18:00,25.4,52.6
+County,Sunday/holiday,19:00,22.4,52.7
+County,Sunday/holiday,20:00,23.0,52.5
+County,Sunday/holiday,21:00,27.6,52.2
+Courtney,Weekday,06:00,76.0,126.3
+Courtney,Weekday,07:00,71.7,126.1
+Courtney,Weekday,08:00,68.6,125.8
+Courtney,Weekday,09:00,61.7,125.6
+Courtney,Weekday,10:00,51.7,125.4
+Courtney,Weekday,11:00,47.2,125.3
+Courtney,Weekday,12:00,46.9,125.2
+Courtney,Weekday,13:00,48.0,125.1
+Courtney,Weekday,14:00,53.0,125.0
+Courtney,Weekday,15:00,59.5,124.8
+Courtney,Weekday,16:00,62.9,124.5
+Courtney,Weekday,17:00,60.5,124.1
+Courtney,Weekday,18:00,48.8,124.0
+Courtney,Weekday,19:00,36.2,124.0
+Courtney,Weekday,20:00,36.1,123.9
+Courtney,Weekday,21:00,47.7,123.7
+Courtney,Saturday,06:00,68.7,126.6
+Courtney,Saturday,07:00,51.2,126.4
+Courtney,Saturday,08:00,35.9,126.2
+Courtney,Saturday,09:00,28.5,126.1
+Courtney,Saturday,10:00,22.9,125.8
+Courtney,Saturday,11:00,20.0,125.7
+Courtney,Saturday,12:00,18.4,125.7
+Courtney,Saturday,13:00,17.6,125.8
+Courtney,Saturday,14:00,18.3,125.6
+Courtney,Saturday,15:00,28.5,125.2
+Courtney,Saturday,16:00,42.9,125.0
+Courtney,Saturday,17:00,46.4,124.5
+Courtney,Saturday,18:00,33.0,124.0
+Courtney,Saturday,19:00,23.8,123.7
+Courtney,Saturday,20:00,23.4,123.4
+Courtney,Saturday,21:00,33.2,123.1
+Courtney,Sunday/holiday,06:00,72.5,121.4
+Courtney,Sunday/holiday,07:00,66.2,121.2
+Courtney,Sunday/holiday,08:00,50.3,121.0
+Courtney,Sunday/holiday,09:00,31.5,121.0
+Courtney,Sunday/holiday,10:00,23.4,120.9
+Courtney,Sunday/holiday,11:00,20.3,120.7
+Courtney,Sunday/holiday,12:00,19.5,120.3
+Courtney,Sunday/holiday,13:00,19.2,120.3
+Courtney,Sunday/holiday,14:00,19.8,120.3
+Courtney,Sunday/holiday,15:00,23.6,120.2
+Courtney,Sunday/holiday,16:00,37.9,119.9
+Courtney,Sunday/holiday,17:00,50.9,119.6
+Courtney,Sunday/holiday,18:00,44.3,119.7
+Courtney,Sunday/holiday,19:00,40.8,119.6
+Courtney,Sunday/holiday,20:00,45.2,119.5
+Courtney,Sunday/holiday,21:00,55.9,119.3
+Degraves,Weekday,06:00,45.5,10.1
+Degraves,Weekday,07:00,48.5,10.2
+Degraves,Weekday,08:00,58.4,10.2
+Degraves,Weekday,09:00,54.5,10.2
+Degraves,Weekday,10:00,42.7,10.2
+Degraves,Weekday,11:00,40.2,10.2
+Degraves,Weekday,12:00,41.5,10.1
+Degraves,Weekday,13:00,45.1,10.1
+Degraves,Weekday,14:00,45.2,10.1
+Degraves,Weekday,15:00,50.4,10.1
+Degraves,Weekday,16:00,56.3,10.1
+Degraves,Weekday,17:00,60.8,10.1
+Degraves,Weekday,18:00,56.9,10.1
+Degraves,Weekday,19:00,47.5,10.1
+Degraves,Weekday,20:00,38.0,10.1
+Degraves,Weekday,21:00,34.3,10.0
+Degraves,Saturday,06:00,58.3,10.2
+Degraves,Saturday,07:00,61.5,10.2
+Degraves,Saturday,08:00,57.0,10.2
+Degraves,Saturday,09:00,55.7,10.1
+Degraves,Saturday,10:00,47.2,10.1
+Degraves,Saturday,11:00,41.6,10.1
+Degraves,Saturday,12:00,45.8,10.1
+Degraves,Saturday,13:00,46.1,10.1
+Degraves,Saturday,14:00,45.3,10.1
+Degraves,Saturday,15:00,46.9,10.2
+Degraves,Saturday,16:00,51.4,10.2
+Degraves,Saturday,17:00,55.7,10.3
+Degraves,Saturday,18:00,50.6,10.2
+Degraves,Saturday,19:00,38.6,10.3
+Degraves,Saturday,20:00,27.9,10.3
+Degraves,Saturday,21:00,23.6,10.2
+Degraves,Sunday/holiday,06:00,66.1,10.1
+Degraves,Sunday/holiday,07:00,65.0,10.1
+Degraves,Sunday/holiday,08:00,62.8,10.0
+Degraves,Sunday/holiday,09:00,55.4,10.1
+Degraves,Sunday/holiday,10:00,45.6,10.1
+Degraves,Sunday/holiday,11:00,39.1,10.1
+Degraves,Sunday/holiday,12:00,34.6,10.1
+Degraves,Sunday/holiday,13:00,31.8,10.1
+Degraves,Sunday/holiday,14:00,29.9,10.0
+Degraves,Sunday/holiday,15:00,32.1,10.0
+Degraves,Sunday/holiday,16:00,35.7,10.0
+Degraves,Sunday/holiday,17:00,37.9,10.0
+Degraves,Sunday/holiday,18:00,35.2,10.1
+Degraves,Sunday/holiday,19:00,30.2,10.1
+Degraves,Sunday/holiday,20:00,28.2,10.0
+Degraves,Sunday/holiday,21:00,32.6,10.1
+Docklands,Weekday,06:00,66.0,467.2
+Docklands,Weekday,07:00,59.1,467.4
+Docklands,Weekday,08:00,54.2,468.3
+Docklands,Weekday,09:00,42.7,468.2
+Docklands,Weekday,10:00,31.5,467.8
+Docklands,Weekday,11:00,27.9,467.1
+Docklands,Weekday,12:00,27.2,466.9
+Docklands,Weekday,13:00,28.2,466.9
+Docklands,Weekday,14:00,32.2,466.6
+Docklands,Weekday,15:00,37.7,466.1
+Docklands,Weekday,16:00,42.2,465.2
+Docklands,Weekday,17:00,42.6,465.0
+Docklands,Weekday,18:00,34.1,464.4
+Docklands,Weekday,19:00,29.9,463.1
+Docklands,Weekday,20:00,33.4,461.2
+Docklands,Weekday,21:00,41.4,458.8
+Docklands,Saturday,06:00,74.8,470.9
+Docklands,Saturday,07:00,70.7,471.0
+Docklands,Saturday,08:00,68.3,471.0
+Docklands,Saturday,09:00,62.8,470.3
+Docklands,Saturday,10:00,57.7,469.6
+Docklands,Saturday,11:00,56.2,468.8
+Docklands,Saturday,12:00,55.3,468.4
+Docklands,Saturday,13:00,54.4,467.7
+Docklands,Saturday,14:00,55.0,466.7
+Docklands,Saturday,15:00,55.9,466.2
+Docklands,Saturday,16:00,54.6,465.4
+Docklands,Saturday,17:00,49.1,463.9
+Docklands,Saturday,18:00,35.5,462.5
+Docklands,Saturday,19:00,25.4,461.9
+Docklands,Saturday,20:00,23.1,460.5
+Docklands,Saturday,21:00,24.6,458.9
+Docklands,Sunday/holiday,06:00,74.2,456.8
+Docklands,Sunday/holiday,07:00,71.3,457.6
+Docklands,Sunday/holiday,08:00,67.4,457.9
+Docklands,Sunday/holiday,09:00,59.0,457.4
+Docklands,Sunday/holiday,10:00,51.1,456.9
+Docklands,Sunday/holiday,11:00,46.6,457.0
+Docklands,Sunday/holiday,12:00,43.1,457.0
+Docklands,Sunday/holiday,13:00,39.5,456.7
+Docklands,Sunday/holiday,14:00,38.4,456.3
+Docklands,Sunday/holiday,15:00,39.0,455.1
+Docklands,Sunday/holiday,16:00,41.7,454.3
+Docklands,Sunday/holiday,17:00,41.9,452.3
+Docklands,Sunday/holiday,18:00,39.3,451.2
+Docklands,Sunday/holiday,19:00,38.4,449.8
+Docklands,Sunday/holiday,20:00,41.2,447.7
+Docklands,Sunday/holiday,21:00,47.1,445.2
+Domain,Weekday,06:00,56.5,33.7
+Domain,Weekday,07:00,52.8,33.7
+Domain,Weekday,08:00,51.3,33.9
+Domain,Weekday,09:00,51.8,34.2
+Domain,Weekday,10:00,51.3,34.4
+Domain,Weekday,11:00,52.5,34.5
+Domain,Weekday,12:00,53.2,34.6
+Domain,Weekday,13:00,54.3,34.6
+Domain,Weekday,14:00,55.3,34.7
+Domain,Weekday,15:00,58.3,34.7
+Domain,Weekday,16:00,63.1,34.7
+Domain,Weekday,17:00,61.8,34.7
+Domain,Weekday,18:00,56.9,34.7
+Domain,Weekday,19:00,53.5,34.6
+Domain,Weekday,20:00,53.1,34.6
+Domain,Weekday,21:00,53.2,34.6
+Domain,Saturday,06:00,59.4,36.5
+Domain,Saturday,07:00,59.4,36.5
+Domain,Saturday,08:00,56.4,36.5
+Domain,Saturday,09:00,51.8,36.5
+Domain,Saturday,10:00,51.7,36.5
+Domain,Saturday,11:00,54.3,36.5
+Domain,Saturday,12:00,57.3,36.5
+Domain,Saturday,13:00,53.8,36.5
+Domain,Saturday,14:00,52.3,36.5
+Domain,Saturday,15:00,52.1,36.4
+Domain,Saturday,16:00,48.6,36.4
+Domain,Saturday,17:00,45.6,36.5
+Domain,Saturday,18:00,46.9,36.5
+Domain,Saturday,19:00,49.7,36.5
+Domain,Saturday,20:00,54.4,36.4
+Domain,Saturday,21:00,55.5,36.5
+Domain,Sunday/holiday,06:00,63.2,37.6
+Domain,Sunday/holiday,07:00,63.7,37.6
+Domain,Sunday/holiday,08:00,62.9,37.6
+Domain,Sunday/holiday,09:00,58.3,37.6
+Domain,Sunday/holiday,10:00,54.4,37.6
+Domain,Sunday/holiday,11:00,52.0,37.6
+Domain,Sunday/holiday,12:00,52.1,37.6
+Domain,Sunday/holiday,13:00,44.2,37.6
+Domain,Sunday/holiday,14:00,39.8,37.6
+Domain,Sunday/holiday,15:00,40.6,37.5
+Domain,Sunday/holiday,16:00,47.4,37.5
+Domain,Sunday/holiday,17:00,54.1,37.5
+Domain,Sunday/holiday,18:00,56.7,37.5
+Domain,Sunday/holiday,19:00,57.2,37.5
+Domain,Sunday/holiday,20:00,57.9,37.5
+Domain,Sunday/holiday,21:00,58.5,37.5
+Drummond,Weekday,06:00,88.7,38.3
+Drummond,Weekday,07:00,85.9,38.4
+Drummond,Weekday,08:00,81.3,38.4
+Drummond,Weekday,09:00,69.0,38.5
+Drummond,Weekday,10:00,49.4,38.4
+Drummond,Weekday,11:00,36.9,38.4
+Drummond,Weekday,12:00,29.6,38.4
+Drummond,Weekday,13:00,25.8,38.4
+Drummond,Weekday,14:00,31.9,38.3
+Drummond,Weekday,15:00,45.1,38.3
+Drummond,Weekday,16:00,54.8,38.2
+Drummond,Weekday,17:00,52.9,38.3
+Drummond,Weekday,18:00,29.1,38.3
+Drummond,Weekday,19:00,9.9,38.2
+Drummond,Weekday,20:00,10.9,38.2
+Drummond,Weekday,21:00,22.2,38.2
+Drummond,Saturday,06:00,87.7,38.4
+Drummond,Saturday,07:00,87.8,38.5
+Drummond,Saturday,08:00,85.9,38.4
+Drummond,Saturday,09:00,64.9,38.4
+Drummond,Saturday,10:00,42.6,38.4
+Drummond,Saturday,11:00,26.6,38.3
+Drummond,Saturday,12:00,16.5,38.3
+Drummond,Saturday,13:00,10.5,38.4
+Drummond,Saturday,14:00,10.3,38.4
+Drummond,Saturday,15:00,16.6,38.4
+Drummond,Saturday,16:00,26.2,38.4
+Drummond,Saturday,17:00,19.7,38.4
+Drummond,Saturday,18:00,7.4,38.2
+Drummond,Saturday,19:00,5.0,38.2
+Drummond,Saturday,20:00,5.7,38.2
+Drummond,Saturday,21:00,6.6,38.2
+Drummond,Sunday/holiday,06:00,81.8,37.3
+Drummond,Sunday/holiday,07:00,80.8,37.3
+Drummond,Sunday/holiday,08:00,78.1,37.3
+Drummond,Sunday/holiday,09:00,53.2,37.4
+Drummond,Sunday/holiday,10:00,34.5,37.3
+Drummond,Sunday/holiday,11:00,24.7,37.2
+Drummond,Sunday/holiday,12:00,14.8,37.2
+Drummond,Sunday/holiday,13:00,9.0,37.2
+Drummond,Sunday/holiday,14:00,7.3,37.1
+Drummond,Sunday/holiday,15:00,13.4,37.1
+Drummond,Sunday/holiday,16:00,22.7,37.1
+Drummond,Sunday/holiday,17:00,24.6,37.2
+Drummond,Sunday/holiday,18:00,12.6,37.2
+Drummond,Sunday/holiday,19:00,8.1,37.2
+Drummond,Sunday/holiday,20:00,10.9,37.2
+Drummond,Sunday/holiday,21:00,24.6,37.2
+East Melbourne,Weekday,06:00,82.0,105.3
+East Melbourne,Weekday,07:00,71.6,105.3
+East Melbourne,Weekday,08:00,65.1,105.3
+East Melbourne,Weekday,09:00,55.3,105.4
+East Melbourne,Weekday,10:00,32.8,105.5
+East Melbourne,Weekday,11:00,26.1,105.4
+East Melbourne,Weekday,12:00,29.7,105.3
+East Melbourne,Weekday,13:00,32.0,105.2
+East Melbourne,Weekday,14:00,34.0,105.2
+East Melbourne,Weekday,15:00,43.6,105.2
+East Melbourne,Weekday,16:00,54.2,104.6
+East Melbourne,Weekday,17:00,57.7,104.4
+East Melbourne,Weekday,18:00,52.0,104.1
+East Melbourne,Weekday,19:00,47.7,103.9
+East Melbourne,Weekday,20:00,55.1,103.7
+East Melbourne,Weekday,21:00,66.1,103.4
+East Melbourne,Saturday,06:00,87.5,105.7
+East Melbourne,Saturday,07:00,82.6,105.6
+East Melbourne,Saturday,08:00,75.2,105.6
+East Melbourne,Saturday,09:00,66.0,105.6
+East Melbourne,Saturday,10:00,55.5,105.5
+East Melbourne,Saturday,11:00,43.7,105.3
+East Melbourne,Saturday,12:00,36.0,104.5
+East Melbourne,Saturday,13:00,26.9,103.5
+East Melbourne,Saturday,14:00,22.2,103.6
+East Melbourne,Saturday,15:00,22.2,103.6
+East Melbourne,Saturday,16:00,28.5,103.6
+East Melbourne,Saturday,17:00,39.0,103.9
+East Melbourne,Saturday,18:00,40.8,103.9
+East Melbourne,Saturday,19:00,40.1,103.9
+East Melbourne,Saturday,20:00,45.6,103.8
+East Melbourne,Saturday,21:00,51.6,103.7
+East Melbourne,Sunday/holiday,06:00,79.3,97.7
+East Melbourne,Sunday/holiday,07:00,67.8,97.6
+East Melbourne,Sunday/holiday,08:00,59.3,97.5
+East Melbourne,Sunday/holiday,09:00,43.3,97.4
+East Melbourne,Sunday/holiday,10:00,27.6,97.2
+East Melbourne,Sunday/holiday,11:00,19.5,96.8
+East Melbourne,Sunday/holiday,12:00,16.2,96.6
+East Melbourne,Sunday/holiday,13:00,15.5,96.5
+East Melbourne,Sunday/holiday,14:00,14.8,96.6
+East Melbourne,Sunday/holiday,15:00,20.0,96.7
+East Melbourne,Sunday/holiday,16:00,28.9,96.4
+East Melbourne,Sunday/holiday,17:00,39.6,96.3
+East Melbourne,Sunday/holiday,18:00,51.1,96.0
+East Melbourne,Sunday/holiday,19:00,59.3,95.7
+East Melbourne,Sunday/holiday,20:00,66.4,95.4
+East Melbourne,Sunday/holiday,21:00,72.1,95.1
+Family,Weekday,06:00,76.8,42.8
+Family,Weekday,07:00,65.7,42.8
+Family,Weekday,08:00,64.0,42.7
+Family,Weekday,09:00,58.1,42.7
+Family,Weekday,10:00,38.4,42.6
+Family,Weekday,11:00,26.9,42.6
+Family,Weekday,12:00,28.2,42.6
+Family,Weekday,13:00,29.7,42.6
+Family,Weekday,14:00,33.0,42.6
+Family,Weekday,15:00,43.9,42.5
+Family,Weekday,16:00,59.9,42.5
+Family,Weekday,17:00,63.5,42.5
+Family,Weekday,18:00,63.6,42.5
+Family,Weekday,19:00,54.4,42.4
+Family,Weekday,20:00,46.4,42.3
+Family,Weekday,21:00,46.9,42.1
+Family,Saturday,06:00,80.4,42.5
+Family,Saturday,07:00,78.8,42.3
+Family,Saturday,08:00,77.6,42.0
+Family,Saturday,09:00,69.0,41.9
+Family,Saturday,10:00,60.3,41.8
+Family,Saturday,11:00,57.6,41.7
+Family,Saturday,12:00,58.6,41.8
+Family,Saturday,13:00,59.5,41.9
+Family,Saturday,14:00,62.1,41.7
+Family,Saturday,15:00,67.0,41.7
+Family,Saturday,16:00,72.5,41.6
+Family,Saturday,17:00,76.8,41.5
+Family,Saturday,18:00,71.9,41.6
+Family,Saturday,19:00,47.6,41.6
+Family,Saturday,20:00,22.7,41.6
+Family,Saturday,21:00,13.9,41.5
+Family,Sunday/holiday,06:00,67.3,41.8
+Family,Sunday/holiday,07:00,61.4,41.8
+Family,Sunday/holiday,08:00,42.8,41.8
+Family,Sunday/holiday,09:00,23.8,41.7
+Family,Sunday/holiday,10:00,17.6,41.7
+Family,Sunday/holiday,11:00,14.0,41.7
+Family,Sunday/holiday,12:00,11.9,41.7
+Family,Sunday/holiday,13:00,11.1,41.6
+Family,Sunday/holiday,14:00,12.2,41.7
+Family,Sunday/holiday,15:00,14.6,41.7
+Family,Sunday/holiday,16:00,20.7,41.7
+Family,Sunday/holiday,17:00,30.3,41.5
+Family,Sunday/holiday,18:00,38.7,41.3
+Family,Sunday/holiday,19:00,36.9,41.4
+Family,Sunday/holiday,20:00,35.1,41.3
+Family,Sunday/holiday,21:00,45.2,41.2
+Hardware,Weekday,06:00,66.8,61.3
+Hardware,Weekday,07:00,56.9,61.0
+Hardware,Weekday,08:00,57.5,60.7
+Hardware,Weekday,09:00,46.9,60.8
+Hardware,Weekday,10:00,23.4,60.3
+Hardware,Weekday,11:00,18.5,60.3
+Hardware,Weekday,12:00,19.0,60.2
+Hardware,Weekday,13:00,19.6,60.3
+Hardware,Weekday,14:00,20.5,60.4
+Hardware,Weekday,15:00,24.4,60.3
+Hardware,Weekday,16:00,30.4,59.9
+Hardware,Weekday,17:00,38.9,60.1
+Hardware,Weekday,18:00,33.0,60.9
+Hardware,Weekday,19:00,23.4,61.1
+Hardware,Weekday,20:00,22.5,60.9
+Hardware,Weekday,21:00,29.1,60.6
+Hardware,Saturday,06:00,82.2,61.3
+Hardware,Saturday,07:00,81.6,61.1
+Hardware,Saturday,08:00,79.1,60.9
+Hardware,Saturday,09:00,63.3,60.4
+Hardware,Saturday,10:00,40.7,60.0
+Hardware,Saturday,11:00,31.9,60.1
+Hardware,Saturday,12:00,28.1,60.4
+Hardware,Saturday,13:00,27.1,60.3
+Hardware,Saturday,14:00,27.0,60.2
+Hardware,Saturday,15:00,29.7,60.6
+Hardware,Saturday,16:00,36.4,60.5
+Hardware,Saturday,17:00,43.2,60.2
+Hardware,Saturday,18:00,34.9,60.0
+Hardware,Saturday,19:00,19.8,60.0
+Hardware,Saturday,20:00,14.0,60.0
+Hardware,Saturday,21:00,13.3,59.7
+Hardware,Sunday/holiday,06:00,78.7,60.1
+Hardware,Sunday/holiday,07:00,71.0,60.2
+Hardware,Sunday/holiday,08:00,67.6,60.1
+Hardware,Sunday/holiday,09:00,57.7,60.0
+Hardware,Sunday/holiday,10:00,33.7,59.8
+Hardware,Sunday/holiday,11:00,18.6,59.8
+Hardware,Sunday/holiday,12:00,15.2,59.9
+Hardware,Sunday/holiday,13:00,13.6,59.4
+Hardware,Sunday/holiday,14:00,13.6,59.2
+Hardware,Sunday/holiday,15:00,14.5,59.4
+Hardware,Sunday/holiday,16:00,18.2,59.6
+Hardware,Sunday/holiday,17:00,21.1,59.9
+Hardware,Sunday/holiday,18:00,14.5,59.8
+Hardware,Sunday/holiday,19:00,14.6,59.4
+Hardware,Sunday/holiday,20:00,18.1,59.0
+Hardware,Sunday/holiday,21:00,30.9,58.4
+Hyatt,Weekday,06:00,58.6,62.2
+Hyatt,Weekday,07:00,43.4,62.2
+Hyatt,Weekday,08:00,39.0,62.1
+Hyatt,Weekday,09:00,32.6,62.1
+Hyatt,Weekday,10:00,19.9,62.1
+Hyatt,Weekday,11:00,18.1,62.1
+Hyatt,Weekday,12:00,18.3,62.1
+Hyatt,Weekday,13:00,18.6,62.1
+Hyatt,Weekday,14:00,20.9,62.1
+Hyatt,Weekday,15:00,25.7,62.1
+Hyatt,Weekday,16:00,33.9,62.1
+Hyatt,Weekday,17:00,43.6,62.1
+Hyatt,Weekday,18:00,34.3,62.3
+Hyatt,Weekday,19:00,19.3,62.2
+Hyatt,Weekday,20:00,17.3,62.1
+Hyatt,Weekday,21:00,22.6,62.0
+Hyatt,Saturday,06:00,76.3,62.4
+Hyatt,Saturday,07:00,69.8,62.3
+Hyatt,Saturday,08:00,59.7,62.1
+Hyatt,Saturday,09:00,54.7,62.2
+Hyatt,Saturday,10:00,47.6,62.1
+Hyatt,Saturday,11:00,43.1,62.1
+Hyatt,Saturday,12:00,39.0,62.1
+Hyatt,Saturday,13:00,35.1,62.1
+Hyatt,Saturday,14:00,32.8,62.0
+Hyatt,Saturday,15:00,35.4,62.0
+Hyatt,Saturday,16:00,40.9,61.7
+Hyatt,Saturday,17:00,46.8,61.3
+Hyatt,Saturday,18:00,31.4,61.0
+Hyatt,Saturday,19:00,15.5,61.0
+Hyatt,Saturday,20:00,12.8,61.2
+Hyatt,Saturday,21:00,13.2,61.2
+Hyatt,Sunday/holiday,06:00,74.1,61.1
+Hyatt,Sunday/holiday,07:00,71.7,61.2
+Hyatt,Sunday/holiday,08:00,62.7,61.3
+Hyatt,Sunday/holiday,09:00,43.1,61.2
+Hyatt,Sunday/holiday,10:00,32.4,61.2
+Hyatt,Sunday/holiday,11:00,26.6,61.2
+Hyatt,Sunday/holiday,12:00,22.7,61.2
+Hyatt,Sunday/holiday,13:00,20.1,61.1
+Hyatt,Sunday/holiday,14:00,20.4,61.0
+Hyatt,Sunday/holiday,15:00,21.9,61.2
+Hyatt,Sunday/holiday,16:00,24.5,61.2
+Hyatt,Sunday/holiday,17:00,24.4,61.4
+Hyatt,Sunday/holiday,18:00,16.0,61.4
+Hyatt,Sunday/holiday,19:00,13.1,61.4
+Hyatt,Sunday/holiday,20:00,16.4,61.2
+Hyatt,Sunday/holiday,21:00,26.4,60.9
+Jolimont,Weekday,06:00,79.8,270.9
+Jolimont,Weekday,07:00,68.3,270.6
+Jolimont,Weekday,08:00,61.9,270.6
+Jolimont,Weekday,09:00,51.2,270.7
+Jolimont,Weekday,10:00,34.7,270.5
+Jolimont,Weekday,11:00,28.7,270.3
+Jolimont,Weekday,12:00,31.5,270.1
+Jolimont,Weekday,13:00,32.4,269.6
+Jolimont,Weekday,14:00,34.6,269.4
+Jolimont,Weekday,15:00,44.0,269.3
+Jolimont,Weekday,16:00,53.5,269.0
+Jolimont,Weekday,17:00,53.8,268.5
+Jolimont,Weekday,18:00,40.2,267.9
+Jolimont,Weekday,19:00,31.2,267.3
+Jolimont,Weekday,20:00,35.0,266.7
+Jolimont,Weekday,21:00,47.3,265.7
+Jolimont,Saturday,06:00,90.5,270.7
+Jolimont,Saturday,07:00,88.1,270.7
+Jolimont,Saturday,08:00,83.8,270.6
+Jolimont,Saturday,09:00,77.3,270.1
+Jolimont,Saturday,10:00,65.9,270.0
+Jolimont,Saturday,11:00,57.0,269.9
+Jolimont,Saturday,12:00,47.9,268.8
+Jolimont,Saturday,13:00,39.3,267.6
+Jolimont,Saturday,14:00,31.9,267.8
+Jolimont,Saturday,15:00,33.4,267.6
+Jolimont,Saturday,16:00,36.6,267.3
+Jolimont,Saturday,17:00,39.1,266.7
+Jolimont,Saturday,18:00,30.4,265.6
+Jolimont,Saturday,19:00,25.2,265.1
+Jolimont,Saturday,20:00,25.0,265.0
+Jolimont,Saturday,21:00,28.7,264.6
+Jolimont,Sunday/holiday,06:00,82.9,259.8
+Jolimont,Sunday/holiday,07:00,72.9,259.3
+Jolimont,Sunday/holiday,08:00,57.9,258.8
+Jolimont,Sunday/holiday,09:00,48.1,258.5
+Jolimont,Sunday/holiday,10:00,34.6,258.0
+Jolimont,Sunday/holiday,11:00,25.5,257.0
+Jolimont,Sunday/holiday,12:00,26.5,256.5
+Jolimont,Sunday/holiday,13:00,25.8,255.4
+Jolimont,Sunday/holiday,14:00,23.2,255.1
+Jolimont,Sunday/holiday,15:00,26.3,254.8
+Jolimont,Sunday/holiday,16:00,33.9,254.7
+Jolimont,Sunday/holiday,17:00,39.7,254.2
+Jolimont,Sunday/holiday,18:00,40.0,253.2
+Jolimont,Sunday/holiday,19:00,41.1,252.2
+Jolimont,Sunday/holiday,20:00,53.1,251.2
+Jolimont,Sunday/holiday,21:00,61.4,250.3
+Kensington,Weekday,06:00,75.0,0.8
+Kensington,Weekday,07:00,74.7,0.8
+Kensington,Weekday,08:00,73.7,0.8
+Kensington,Weekday,09:00,72.1,0.8
+Kensington,Weekday,10:00,72.1,0.8
+Kensington,Weekday,11:00,71.1,0.8
+Kensington,Weekday,12:00,71.6,0.7
+Kensington,Weekday,13:00,70.7,0.7
+Kensington,Weekday,14:00,71.9,0.7
+Kensington,Weekday,15:00,72.6,0.7
+Kensington,Weekday,16:00,72.7,0.7
+Kensington,Weekday,17:00,73.4,0.7
+Kensington,Weekday,18:00,73.3,0.7
+Kensington,Weekday,19:00,74.7,0.7
+Kensington,Weekday,20:00,75.0,0.7
+Kensington,Weekday,21:00,74.9,0.7
+Kensington,Saturday,06:00,68.4,0.7
+Kensington,Saturday,07:00,68.4,0.7
+Kensington,Saturday,08:00,68.4,0.7
+Kensington,Saturday,09:00,68.4,0.7
+Kensington,Saturday,10:00,68.4,0.7
+Kensington,Saturday,11:00,70.4,0.7
+Kensington,Saturday,12:00,71.1,0.7
+Kensington,Saturday,13:00,72.4,0.7
+Kensington,Saturday,14:00,69.7,0.7
+Kensington,Saturday,15:00,69.1,0.7
+Kensington,Saturday,16:00,71.1,0.7
+Kensington,Saturday,17:00,71.1,0.7
+Kensington,Saturday,18:00,71.7,0.7
+Kensington,Saturday,19:00,75.0,0.7
+Kensington,Saturday,20:00,76.3,0.7
+Kensington,Saturday,21:00,78.9,0.7
+Kensington,Sunday/holiday,06:00,81.2,0.8
+Kensington,Sunday/holiday,07:00,81.2,0.8
+Kensington,Sunday/holiday,08:00,81.2,0.8
+Kensington,Sunday/holiday,09:00,81.2,0.8
+Kensington,Sunday/holiday,10:00,81.8,0.8
+Kensington,Sunday/holiday,11:00,83.3,0.8
+Kensington,Sunday/holiday,12:00,81.8,0.8
+Kensington,Sunday/holiday,13:00,81.2,0.8
+Kensington,Sunday/holiday,14:00,80.7,0.8
+Kensington,Sunday/holiday,15:00,78.1,0.8
+Kensington,Sunday/holiday,16:00,79.2,0.8
+Kensington,Sunday/holiday,17:00,77.1,0.8
+Kensington,Sunday/holiday,18:00,76.6,0.8
+Kensington,Sunday/holiday,19:00,77.1,0.8
+Kensington,Sunday/holiday,20:00,77.1,0.8
+Kensington,Sunday/holiday,21:00,77.1,0.8
+Library,Weekday,06:00,66.4,49.6
+Library,Weekday,07:00,61.4,49.5
+Library,Weekday,08:00,63.3,49.6
+Library,Weekday,09:00,61.5,49.6
+Library,Weekday,10:00,42.7,49.5
+Library,Weekday,11:00,27.7,49.4
+Library,Weekday,12:00,23.0,49.4
+Library,Weekday,13:00,22.8,49.5
+Library,Weekday,14:00,26.1,49.5
+Library,Weekday,15:00,32.3,49.4
+Library,Weekday,16:00,39.9,49.4
+Library,Weekday,17:00,41.9,49.4
+Library,Weekday,18:00,31.6,49.6
+Library,Weekday,19:00,17.2,49.6
+Library,Weekday,20:00,12.6,49.5
+Library,Weekday,21:00,13.9,49.4
+Library,Saturday,06:00,69.6,49.4
+Library,Saturday,07:00,71.7,49.3
+Library,Saturday,08:00,71.5,49.2
+Library,Saturday,09:00,68.0,49.0
+Library,Saturday,10:00,49.7,49.0
+Library,Saturday,11:00,37.0,49.0
+Library,Saturday,12:00,29.5,48.9
+Library,Saturday,13:00,25.0,49.1
+Library,Saturday,14:00,22.8,49.3
+Library,Saturday,15:00,24.4,49.3
+Library,Saturday,16:00,24.8,49.3
+Library,Saturday,17:00,24.6,49.3
+Library,Saturday,18:00,18.3,49.1
+Library,Saturday,19:00,13.1,49.2
+Library,Saturday,20:00,10.1,49.0
+Library,Saturday,21:00,9.7,48.8
+Library,Sunday/holiday,06:00,62.4,47.9
+Library,Sunday/holiday,07:00,62.2,48.1
+Library,Sunday/holiday,08:00,63.7,48.3
+Library,Sunday/holiday,09:00,49.9,48.2
+Library,Sunday/holiday,10:00,26.1,48.2
+Library,Sunday/holiday,11:00,14.6,48.3
+Library,Sunday/holiday,12:00,12.2,48.5
+Library,Sunday/holiday,13:00,11.8,48.4
+Library,Sunday/holiday,14:00,11.9,48.4
+Library,Sunday/holiday,15:00,12.8,48.6
+Library,Sunday/holiday,16:00,13.0,48.6
+Library,Sunday/holiday,17:00,12.2,48.7
+Library,Sunday/holiday,18:00,10.4,48.7
+Library,Sunday/holiday,19:00,10.9,48.5
+Library,Sunday/holiday,20:00,11.9,48.1
+Library,Sunday/holiday,21:00,13.6,47.7
+Magistrates,Weekday,06:00,74.7,92.3
+Magistrates,Weekday,07:00,69.3,92.2
+Magistrates,Weekday,08:00,67.2,92.2
+Magistrates,Weekday,09:00,61.9,92.2
+Magistrates,Weekday,10:00,48.6,92.1
+Magistrates,Weekday,11:00,39.5,92.0
+Magistrates,Weekday,12:00,38.5,92.0
+Magistrates,Weekday,13:00,38.9,91.9
+Magistrates,Weekday,14:00,44.2,92.0
+Magistrates,Weekday,15:00,54.6,92.0
+Magistrates,Weekday,16:00,67.8,92.0
+Magistrates,Weekday,17:00,73.1,92.0
+Magistrates,Weekday,18:00,69.4,92.1
+Magistrates,Weekday,19:00,57.3,92.0
+Magistrates,Weekday,20:00,46.5,91.8
+Magistrates,Weekday,21:00,42.8,91.4
+Magistrates,Saturday,06:00,75.8,92.2
+Magistrates,Saturday,07:00,75.0,92.2
+Magistrates,Saturday,08:00,72.6,92.1
+Magistrates,Saturday,09:00,71.8,92.1
+Magistrates,Saturday,10:00,67.3,92.0
+Magistrates,Saturday,11:00,64.2,91.7
+Magistrates,Saturday,12:00,64.4,91.5
+Magistrates,Saturday,13:00,61.6,91.7
+Magistrates,Saturday,14:00,61.1,91.7
+Magistrates,Saturday,15:00,64.7,91.6
+Magistrates,Saturday,16:00,64.5,91.6
+Magistrates,Saturday,17:00,64.8,91.7
+Magistrates,Saturday,18:00,53.7,91.8
+Magistrates,Saturday,19:00,34.0,92.1
+Magistrates,Saturday,20:00,21.7,92.2
+Magistrates,Saturday,21:00,17.6,92.1
+Magistrates,Sunday/holiday,06:00,61.5,90.8
+Magistrates,Sunday/holiday,07:00,57.7,90.8
+Magistrates,Sunday/holiday,08:00,48.7,90.8
+Magistrates,Sunday/holiday,09:00,37.5,90.8
+Magistrates,Sunday/holiday,10:00,30.2,90.8
+Magistrates,Sunday/holiday,11:00,25.3,90.8
+Magistrates,Sunday/holiday,12:00,22.1,90.8
+Magistrates,Sunday/holiday,13:00,20.9,90.8
+Magistrates,Sunday/holiday,14:00,22.0,90.9
+Magistrates,Sunday/holiday,15:00,25.0,90.9
+Magistrates,Sunday/holiday,16:00,29.4,90.9
+Magistrates,Sunday/holiday,17:00,32.0,90.9
+Magistrates,Sunday/holiday,18:00,31.3,90.7
+Magistrates,Sunday/holiday,19:00,28.3,90.7
+Magistrates,Sunday/holiday,20:00,28.3,90.6
+Magistrates,Sunday/holiday,21:00,31.2,90.4
+Markilles,Weekday,06:00,45.4,29.1
+Markilles,Weekday,07:00,47.3,29.0
+Markilles,Weekday,08:00,52.5,28.9
+Markilles,Weekday,09:00,46.1,29.0
+Markilles,Weekday,10:00,29.8,28.9
+Markilles,Weekday,11:00,23.8,28.9
+Markilles,Weekday,12:00,24.4,28.9
+Markilles,Weekday,13:00,25.5,29.0
+Markilles,Weekday,14:00,28.8,28.9
+Markilles,Weekday,15:00,37.4,29.0
+Markilles,Weekday,16:00,49.4,29.1
+Markilles,Weekday,17:00,54.6,29.2
+Markilles,Weekday,18:00,45.5,29.4
+Markilles,Weekday,19:00,29.5,29.6
+Markilles,Weekday,20:00,21.3,29.5
+Markilles,Weekday,21:00,19.8,29.3
+Markilles,Saturday,06:00,43.8,29.0
+Markilles,Saturday,07:00,49.6,28.9
+Markilles,Saturday,08:00,52.6,28.5
+Markilles,Saturday,09:00,48.3,28.3
+Markilles,Saturday,10:00,41.6,28.3
+Markilles,Saturday,11:00,38.6,28.3
+Markilles,Saturday,12:00,37.5,28.2
+Markilles,Saturday,13:00,38.2,28.4
+Markilles,Saturday,14:00,36.7,28.4
+Markilles,Saturday,15:00,38.9,28.6
+Markilles,Saturday,16:00,43.5,28.7
+Markilles,Saturday,17:00,47.1,29.1
+Markilles,Saturday,18:00,36.5,29.5
+Markilles,Saturday,19:00,17.1,29.7
+Markilles,Saturday,20:00,10.3,29.7
+Markilles,Saturday,21:00,10.1,29.7
+Markilles,Sunday/holiday,06:00,27.8,28.9
+Markilles,Sunday/holiday,07:00,26.1,29.1
+Markilles,Sunday/holiday,08:00,23.4,29.1
+Markilles,Sunday/holiday,09:00,17.6,29.1
+Markilles,Sunday/holiday,10:00,12.9,29.0
+Markilles,Sunday/holiday,11:00,13.8,29.0
+Markilles,Sunday/holiday,12:00,14.8,28.9
+Markilles,Sunday/holiday,13:00,14.3,29.0
+Markilles,Sunday/holiday,14:00,14.7,29.0
+Markilles,Sunday/holiday,15:00,15.7,29.1
+Markilles,Sunday/holiday,16:00,17.3,29.0
+Markilles,Sunday/holiday,17:00,20.0,29.0
+Markilles,Sunday/holiday,18:00,19.8,29.0
+Markilles,Sunday/holiday,19:00,16.4,28.9
+Markilles,Sunday/holiday,20:00,15.0,28.8
+Markilles,Sunday/holiday,21:00,15.2,28.7
+McKillop,Weekday,06:00,47.2,40.4
+McKillop,Weekday,07:00,34.3,40.4
+McKillop,Weekday,08:00,38.6,40.4
+McKillop,Weekday,09:00,30.3,40.4
+McKillop,Weekday,10:00,20.3,40.3
+McKillop,Weekday,11:00,18.2,40.2
+McKillop,Weekday,12:00,19.0,40.2
+McKillop,Weekday,13:00,19.4,40.2
+McKillop,Weekday,14:00,19.8,40.1
+McKillop,Weekday,15:00,21.6,40.2
+McKillop,Weekday,16:00,25.4,40.2
+McKillop,Weekday,17:00,31.2,40.2
+McKillop,Weekday,18:00,28.2,40.2
+McKillop,Weekday,19:00,20.2,40.2
+McKillop,Weekday,20:00,19.0,40.1
+McKillop,Weekday,21:00,24.2,39.9
+McKillop,Saturday,06:00,71.4,40.1
+McKillop,Saturday,07:00,67.8,40.0
+McKillop,Saturday,08:00,61.6,39.7
+McKillop,Saturday,09:00,45.4,39.5
+McKillop,Saturday,10:00,29.2,39.5
+McKillop,Saturday,11:00,23.5,39.6
+McKillop,Saturday,12:00,23.5,39.6
+McKillop,Saturday,13:00,24.2,39.7
+McKillop,Saturday,14:00,22.8,39.6
+McKillop,Saturday,15:00,24.1,39.7
+McKillop,Saturday,16:00,29.1,39.7
+McKillop,Saturday,17:00,34.5,39.7
+McKillop,Saturday,18:00,24.6,39.5
+McKillop,Saturday,19:00,15.1,39.5
+McKillop,Saturday,20:00,12.2,39.4
+McKillop,Saturday,21:00,12.9,39.3
+McKillop,Sunday/holiday,06:00,78.1,39.4
+McKillop,Sunday/holiday,07:00,74.8,39.3
+McKillop,Sunday/holiday,08:00,67.1,39.3
+McKillop,Sunday/holiday,09:00,50.5,39.4
+McKillop,Sunday/holiday,10:00,29.9,39.4
+McKillop,Sunday/holiday,11:00,18.0,39.4
+McKillop,Sunday/holiday,12:00,16.0,39.3
+McKillop,Sunday/holiday,13:00,14.4,39.0
+McKillop,Sunday/holiday,14:00,14.7,39.1
+McKillop,Sunday/holiday,15:00,16.5,39.3
+McKillop,Sunday/holiday,16:00,20.0,39.4
+McKillop,Sunday/holiday,17:00,22.3,39.6
+McKillop,Sunday/holiday,18:00,15.7,39.6
+McKillop,Sunday/holiday,19:00,15.8,39.4
+McKillop,Sunday/holiday,20:00,18.5,39.2
+McKillop,Sunday/holiday,21:00,29.2,38.8
+Mint,Weekday,06:00,61.3,80.1
+Mint,Weekday,07:00,54.8,79.2
+Mint,Weekday,08:00,53.5,78.2
+Mint,Weekday,09:00,38.9,78.2
+Mint,Weekday,10:00,26.7,77.8
+Mint,Weekday,11:00,26.5,77.2
+Mint,Weekday,12:00,29.4,76.9
+Mint,Weekday,13:00,31.0,77.2
+Mint,Weekday,14:00,31.8,77.0
+Mint,Weekday,15:00,38.9,76.4
+Mint,Weekday,16:00,51.5,75.7
+Mint,Weekday,17:00,59.3,76.4
+Mint,Weekday,18:00,54.3,77.9
+Mint,Weekday,19:00,41.8,78.2
+Mint,Weekday,20:00,37.1,77.6
+Mint,Weekday,21:00,40.3,77.1
+Mint,Saturday,06:00,65.3,80.6
+Mint,Saturday,07:00,65.3,80.1
+Mint,Saturday,08:00,65.5,79.1
+Mint,Saturday,09:00,62.2,78.7
+Mint,Saturday,10:00,60.1,78.4
+Mint,Saturday,11:00,56.3,78.3
+Mint,Saturday,12:00,55.5,78.4
+Mint,Saturday,13:00,54.9,78.2
+Mint,Saturday,14:00,52.8,77.6
+Mint,Saturday,15:00,57.3,77.8
+Mint,Saturday,16:00,60.5,77.9
+Mint,Saturday,17:00,62.0,78.2
+Mint,Saturday,18:00,56.2,78.4
+Mint,Saturday,19:00,35.6,78.7
+Mint,Saturday,20:00,21.9,78.5
+Mint,Saturday,21:00,20.5,78.0
+Mint,Sunday/holiday,06:00,53.5,77.9
+Mint,Sunday/holiday,07:00,49.9,77.6
+Mint,Sunday/holiday,08:00,43.6,77.3
+Mint,Sunday/holiday,09:00,37.8,77.2
+Mint,Sunday/holiday,10:00,29.8,77.1
+Mint,Sunday/holiday,11:00,23.1,77.1
+Mint,Sunday/holiday,12:00,20.9,77.0
+Mint,Sunday/holiday,13:00,20.5,77.0
+Mint,Sunday/holiday,14:00,21.7,76.9
+Mint,Sunday/holiday,15:00,26.0,77.0
+Mint,Sunday/holiday,16:00,31.0,77.0
+Mint,Sunday/holiday,17:00,30.8,77.0
+Mint,Sunday/holiday,18:00,25.1,76.5
+Mint,Sunday/holiday,19:00,22.2,75.9
+Mint,Sunday/holiday,20:00,24.8,75.6
+Mint,Sunday/holiday,21:00,31.0,75.2
+Princes Theatre,Weekday,06:00,67.3,124.5
+Princes Theatre,Weekday,07:00,62.4,124.4
+Princes Theatre,Weekday,08:00,62.6,124.4
+Princes Theatre,Weekday,09:00,51.3,124.3
+Princes Theatre,Weekday,10:00,35.7,123.9
+Princes Theatre,Weekday,11:00,26.4,123.8
+Princes Theatre,Weekday,12:00,22.7,123.9
+Princes Theatre,Weekday,13:00,21.2,123.9
+Princes Theatre,Weekday,14:00,26.6,124.0
+Princes Theatre,Weekday,15:00,37.9,124.1
+Princes Theatre,Weekday,16:00,50.8,124.0
+Princes Theatre,Weekday,17:00,56.6,123.9
+Princes Theatre,Weekday,18:00,41.2,124.0
+Princes Theatre,Weekday,19:00,18.6,123.9
+Princes Theatre,Weekday,20:00,14.9,123.7
+Princes Theatre,Weekday,21:00,20.6,123.3
+Princes Theatre,Saturday,06:00,77.3,123.9
+Princes Theatre,Saturday,07:00,76.1,123.8
+Princes Theatre,Saturday,08:00,77.0,123.5
+Princes Theatre,Saturday,09:00,72.3,123.4
+Princes Theatre,Saturday,10:00,65.4,123.7
+Princes Theatre,Saturday,11:00,54.1,123.7
+Princes Theatre,Saturday,12:00,41.9,123.6
+Princes Theatre,Saturday,13:00,36.4,123.7
+Princes Theatre,Saturday,14:00,39.2,123.8
+Princes Theatre,Saturday,15:00,46.6,123.8
+Princes Theatre,Saturday,16:00,52.4,123.4
+Princes Theatre,Saturday,17:00,51.1,123.0
+Princes Theatre,Saturday,18:00,29.5,122.5
+Princes Theatre,Saturday,19:00,12.2,122.8
+Princes Theatre,Saturday,20:00,10.7,122.9
+Princes Theatre,Saturday,21:00,11.0,122.5
+Princes Theatre,Sunday/holiday,06:00,77.4,122.2
+Princes Theatre,Sunday/holiday,07:00,77.2,122.3
+Princes Theatre,Sunday/holiday,08:00,76.1,122.4
+Princes Theatre,Sunday/holiday,09:00,67.9,122.1
+Princes Theatre,Sunday/holiday,10:00,53.6,122.0
+Princes Theatre,Sunday/holiday,11:00,25.1,121.9
+Princes Theatre,Sunday/holiday,12:00,15.6,121.9
+Princes Theatre,Sunday/holiday,13:00,14.0,122.1
+Princes Theatre,Sunday/holiday,14:00,16.8,122.5
+Princes Theatre,Sunday/holiday,15:00,25.8,122.5
+Princes Theatre,Sunday/holiday,16:00,31.3,122.6
+Princes Theatre,Sunday/holiday,17:00,20.4,122.9
+Princes Theatre,Sunday/holiday,18:00,11.9,123.0
+Princes Theatre,Sunday/holiday,19:00,9.8,122.7
+Princes Theatre,Sunday/holiday,20:00,12.6,122.5
+Princes Theatre,Sunday/holiday,21:00,21.0,121.7
+Queensberry,Weekday,06:00,81.8,585.3
+Queensberry,Weekday,07:00,73.5,587.0
+Queensberry,Weekday,08:00,66.5,589.0
+Queensberry,Weekday,09:00,54.7,588.8
+Queensberry,Weekday,10:00,40.7,588.2
+Queensberry,Weekday,11:00,33.5,587.7
+Queensberry,Weekday,12:00,30.8,587.1
+Queensberry,Weekday,13:00,31.8,586.2
+Queensberry,Weekday,14:00,37.4,585.1
+Queensberry,Weekday,15:00,46.0,583.8
+Queensberry,Weekday,16:00,54.0,582.4
+Queensberry,Weekday,17:00,59.2,580.8
+Queensberry,Weekday,18:00,56.2,580.3
+Queensberry,Weekday,19:00,50.6,580.6
+Queensberry,Weekday,20:00,51.7,579.7
+Queensberry,Weekday,21:00,61.0,578.2
+Queensberry,Saturday,06:00,83.3,584.8
+Queensberry,Saturday,07:00,79.7,585.9
+Queensberry,Saturday,08:00,71.9,586.9
+Queensberry,Saturday,09:00,59.5,586.1
+Queensberry,Saturday,10:00,46.4,585.3
+Queensberry,Saturday,11:00,36.2,584.5
+Queensberry,Saturday,12:00,31.4,584.6
+Queensberry,Saturday,13:00,29.9,584.7
+Queensberry,Saturday,14:00,31.3,583.5
+Queensberry,Saturday,15:00,40.1,581.9
+Queensberry,Saturday,16:00,49.7,580.5
+Queensberry,Saturday,17:00,55.3,579.6
+Queensberry,Saturday,18:00,51.6,578.8
+Queensberry,Saturday,19:00,44.3,578.6
+Queensberry,Saturday,20:00,45.1,578.0
+Queensberry,Saturday,21:00,49.9,577.2
+Queensberry,Sunday/holiday,06:00,82.1,562.4
+Queensberry,Sunday/holiday,07:00,78.1,561.3
+Queensberry,Sunday/holiday,08:00,71.3,560.1
+Queensberry,Sunday/holiday,09:00,58.5,559.8
+Queensberry,Sunday/holiday,10:00,42.8,559.5
+Queensberry,Sunday/holiday,11:00,31.9,558.8
+Queensberry,Sunday/holiday,12:00,28.6,557.9
+Queensberry,Sunday/holiday,13:00,28.2,557.3
+Queensberry,Sunday/holiday,14:00,29.9,556.6
+Queensberry,Sunday/holiday,15:00,37.4,555.8
+Queensberry,Sunday/holiday,16:00,49.2,554.2
+Queensberry,Sunday/holiday,17:00,58.0,552.5
+Queensberry,Sunday/holiday,18:00,60.5,551.6
+Queensberry,Sunday/holiday,19:00,63.0,550.8
+Queensberry,Sunday/holiday,20:00,67.3,549.5
+Queensberry,Sunday/holiday,21:00,72.3,548.4
+RACV,Weekday,06:00,40.9,14.7
+RACV,Weekday,07:00,38.8,14.7
+RACV,Weekday,08:00,45.6,14.7
+RACV,Weekday,09:00,41.0,14.7
+RACV,Weekday,10:00,28.5,14.6
+RACV,Weekday,11:00,28.4,14.6
+RACV,Weekday,12:00,28.2,14.6
+RACV,Weekday,13:00,28.6,14.6
+RACV,Weekday,14:00,30.8,14.6
+RACV,Weekday,15:00,34.9,14.6
+RACV,Weekday,16:00,40.4,14.6
+RACV,Weekday,17:00,46.0,14.6
+RACV,Weekday,18:00,40.4,14.6
+RACV,Weekday,19:00,33.3,14.5
+RACV,Weekday,20:00,35.5,14.5
+RACV,Weekday,21:00,39.9,14.4
+RACV,Saturday,06:00,72.2,14.6
+RACV,Saturday,07:00,68.2,14.5
+RACV,Saturday,08:00,60.5,14.5
+RACV,Saturday,09:00,47.5,14.5
+RACV,Saturday,10:00,45.9,14.4
+RACV,Saturday,11:00,47.3,14.4
+RACV,Saturday,12:00,48.2,14.4
+RACV,Saturday,13:00,46.7,14.4
+RACV,Saturday,14:00,43.7,14.4
+RACV,Saturday,15:00,51.3,14.4
+RACV,Saturday,16:00,54.5,14.4
+RACV,Saturday,17:00,59.7,14.5
+RACV,Saturday,18:00,47.6,14.3
+RACV,Saturday,19:00,28.1,14.3
+RACV,Saturday,20:00,21.9,14.3
+RACV,Saturday,21:00,20.6,14.3
+RACV,Sunday/holiday,06:00,54.2,14.3
+RACV,Sunday/holiday,07:00,40.8,14.3
+RACV,Sunday/holiday,08:00,30.1,14.3
+RACV,Sunday/holiday,09:00,24.4,14.3
+RACV,Sunday/holiday,10:00,21.8,14.3
+RACV,Sunday/holiday,11:00,21.6,14.3
+RACV,Sunday/holiday,12:00,19.9,14.3
+RACV,Sunday/holiday,13:00,18.4,14.2
+RACV,Sunday/holiday,14:00,18.9,14.2
+RACV,Sunday/holiday,15:00,20.3,14.2
+RACV,Sunday/holiday,16:00,24.5,14.2
+RACV,Sunday/holiday,17:00,28.5,14.2
+RACV,Sunday/holiday,18:00,30.0,14.2
+RACV,Sunday/holiday,19:00,30.2,14.2
+RACV,Sunday/holiday,20:00,33.3,14.2
+RACV,Sunday/holiday,21:00,39.8,14.2
+Regency,Weekday,06:00,76.2,136.6
+Regency,Weekday,07:00,66.0,136.4
+Regency,Weekday,08:00,59.3,136.2
+Regency,Weekday,09:00,46.9,136.1
+Regency,Weekday,10:00,32.7,135.8
+Regency,Weekday,11:00,28.3,135.5
+Regency,Weekday,12:00,28.1,135.5
+Regency,Weekday,13:00,27.1,135.5
+Regency,Weekday,14:00,31.0,135.4
+Regency,Weekday,15:00,43.1,135.5
+Regency,Weekday,16:00,55.9,135.1
+Regency,Weekday,17:00,64.0,134.9
+Regency,Weekday,18:00,58.9,134.5
+Regency,Weekday,19:00,42.8,133.8
+Regency,Weekday,20:00,36.3,133.2
+Regency,Weekday,21:00,41.9,132.5
+Regency,Saturday,06:00,81.3,136.5
+Regency,Saturday,07:00,78.7,136.6
+Regency,Saturday,08:00,75.8,136.5
+Regency,Saturday,09:00,72.7,136.6
+Regency,Saturday,10:00,70.0,136.8
+Regency,Saturday,11:00,66.4,136.8
+Regency,Saturday,12:00,61.9,136.6
+Regency,Saturday,13:00,56.5,136.4
+Regency,Saturday,14:00,56.1,136.1
+Regency,Saturday,15:00,61.4,136.0
+Regency,Saturday,16:00,67.6,135.5
+Regency,Saturday,17:00,69.2,134.9
+Regency,Saturday,18:00,55.8,134.5
+Regency,Saturday,19:00,30.9,134.7
+Regency,Saturday,20:00,15.5,134.6
+Regency,Saturday,21:00,14.8,134.4
+Regency,Sunday/holiday,06:00,80.1,135.2
+Regency,Sunday/holiday,07:00,79.2,135.2
+Regency,Sunday/holiday,08:00,76.7,135.2
+Regency,Sunday/holiday,09:00,65.1,135.2
+Regency,Sunday/holiday,10:00,49.8,135.0
+Regency,Sunday/holiday,11:00,33.5,134.9
+Regency,Sunday/holiday,12:00,22.9,134.8
+Regency,Sunday/holiday,13:00,18.8,134.7
+Regency,Sunday/holiday,14:00,20.3,134.6
+Regency,Sunday/holiday,15:00,28.9,134.5
+Regency,Sunday/holiday,16:00,36.2,134.4
+Regency,Sunday/holiday,17:00,34.5,134.3
+Regency,Sunday/holiday,18:00,24.3,134.2
+Regency,Sunday/holiday,19:00,16.6,134.0
+Regency,Sunday/holiday,20:00,22.4,133.7
+Regency,Sunday/holiday,21:00,37.5,133.1
+Rialto,Weekday,06:00,77.0,36.8
+Rialto,Weekday,07:00,77.5,36.8
+Rialto,Weekday,08:00,77.7,36.8
+Rialto,Weekday,09:00,72.8,36.7
+Rialto,Weekday,10:00,44.5,36.7
+Rialto,Weekday,11:00,29.3,36.7
+Rialto,Weekday,12:00,30.7,36.6
+Rialto,Weekday,13:00,33.3,36.6
+Rialto,Weekday,14:00,39.6,36.7
+Rialto,Weekday,15:00,56.0,36.6
+Rialto,Weekday,16:00,78.1,36.6
+Rialto,Weekday,17:00,79.6,36.6
+Rialto,Weekday,18:00,76.0,36.7
+Rialto,Weekday,19:00,60.0,36.7
+Rialto,Weekday,20:00,41.2,36.7
+Rialto,Weekday,21:00,36.2,36.6
+Rialto,Saturday,06:00,48.4,36.6
+Rialto,Saturday,07:00,54.2,36.6
+Rialto,Saturday,08:00,58.7,36.6
+Rialto,Saturday,09:00,56.7,36.6
+Rialto,Saturday,10:00,51.5,36.6
+Rialto,Saturday,11:00,50.3,36.5
+Rialto,Saturday,12:00,52.2,36.5
+Rialto,Saturday,13:00,51.5,36.5
+Rialto,Saturday,14:00,54.0,36.5
+Rialto,Saturday,15:00,54.5,36.5
+Rialto,Saturday,16:00,59.4,36.6
+Rialto,Saturday,17:00,63.5,36.7
+Rialto,Saturday,18:00,54.6,36.6
+Rialto,Saturday,19:00,38.3,36.6
+Rialto,Saturday,20:00,30.6,36.6
+Rialto,Saturday,21:00,26.5,36.6
+Rialto,Sunday/holiday,06:00,31.9,36.5
+Rialto,Sunday/holiday,07:00,36.6,36.5
+Rialto,Sunday/holiday,08:00,31.8,36.4
+Rialto,Sunday/holiday,09:00,24.3,36.4
+Rialto,Sunday/holiday,10:00,21.3,36.4
+Rialto,Sunday/holiday,11:00,21.1,36.4
+Rialto,Sunday/holiday,12:00,20.6,36.4
+Rialto,Sunday/holiday,13:00,20.6,36.4
+Rialto,Sunday/holiday,14:00,21.9,36.4
+Rialto,Sunday/holiday,15:00,24.6,36.4
+Rialto,Sunday/holiday,16:00,31.3,36.3
+Rialto,Sunday/holiday,17:00,39.7,36.4
+Rialto,Sunday/holiday,18:00,41.6,36.3
+Rialto,Sunday/holiday,19:00,32.9,36.3
+Rialto,Sunday/holiday,20:00,27.5,36.2
+Rialto,Sunday/holiday,21:00,28.3,36.2
+Southbank,Weekday,06:00,74.4,388.2
+Southbank,Weekday,07:00,69.0,388.3
+Southbank,Weekday,08:00,67.1,388.8
+Southbank,Weekday,09:00,57.9,388.0
+Southbank,Weekday,10:00,46.5,386.4
+Southbank,Weekday,11:00,42.2,385.7
+Southbank,Weekday,12:00,42.2,384.7
+Southbank,Weekday,13:00,43.5,383.6
+Southbank,Weekday,14:00,46.8,382.8
+Southbank,Weekday,15:00,55.0,381.3
+Southbank,Weekday,16:00,61.5,378.9
+Southbank,Weekday,17:00,59.4,377.3
+Southbank,Weekday,18:00,43.8,377.9
+Southbank,Weekday,19:00,33.5,379.2
+Southbank,Weekday,20:00,34.9,378.1
+Southbank,Weekday,21:00,43.5,376.6
+Southbank,Saturday,06:00,70.6,376.2
+Southbank,Saturday,07:00,59.2,374.2
+Southbank,Saturday,08:00,51.1,372.3
+Southbank,Saturday,09:00,44.0,370.8
+Southbank,Saturday,10:00,37.2,369.8
+Southbank,Saturday,11:00,32.4,369.3
+Southbank,Saturday,12:00,26.6,368.3
+Southbank,Saturday,13:00,23.3,367.5
+Southbank,Saturday,14:00,22.3,367.1
+Southbank,Saturday,15:00,27.2,366.5
+Southbank,Saturday,16:00,32.4,365.2
+Southbank,Saturday,17:00,39.3,362.9
+Southbank,Saturday,18:00,31.8,360.6
+Southbank,Saturday,19:00,21.8,360.6
+Southbank,Saturday,20:00,20.4,360.0
+Southbank,Saturday,21:00,26.6,358.7
+Southbank,Sunday/holiday,06:00,66.2,358.0
+Southbank,Sunday/holiday,07:00,63.5,358.0
+Southbank,Sunday/holiday,08:00,59.4,358.0
+Southbank,Sunday/holiday,09:00,52.0,357.3
+Southbank,Sunday/holiday,10:00,42.3,356.9
+Southbank,Sunday/holiday,11:00,34.9,356.7
+Southbank,Sunday/holiday,12:00,29.3,355.8
+Southbank,Sunday/holiday,13:00,25.0,354.8
+Southbank,Sunday/holiday,14:00,21.1,353.7
+Southbank,Sunday/holiday,15:00,22.3,352.6
+Southbank,Sunday/holiday,16:00,26.6,350.9
+Southbank,Sunday/holiday,17:00,33.4,347.8
+Southbank,Sunday/holiday,18:00,36.8,344.6
+Southbank,Sunday/holiday,19:00,41.6,342.5
+Southbank,Sunday/holiday,20:00,48.5,340.4
+Southbank,Sunday/holiday,21:00,56.4,338.1
+Spencer,Weekday,06:00,48.9,39.1
+Spencer,Weekday,07:00,41.4,39.0
+Spencer,Weekday,08:00,43.2,38.8
+Spencer,Weekday,09:00,36.9,38.6
+Spencer,Weekday,10:00,28.5,38.1
+Spencer,Weekday,11:00,26.7,37.6
+Spencer,Weekday,12:00,28.1,37.3
+Spencer,Weekday,13:00,29.4,37.3
+Spencer,Weekday,14:00,32.1,37.2
+Spencer,Weekday,15:00,36.1,37.0
+Spencer,Weekday,16:00,39.9,36.9
+Spencer,Weekday,17:00,42.4,37.1
+Spencer,Weekday,18:00,33.6,37.3
+Spencer,Weekday,19:00,29.5,37.3
+Spencer,Weekday,20:00,29.0,36.9
+Spencer,Weekday,21:00,31.7,36.2
+Spencer,Saturday,06:00,52.9,37.2
+Spencer,Saturday,07:00,47.2,37.1
+Spencer,Saturday,08:00,47.8,36.8
+Spencer,Saturday,09:00,42.9,36.4
+Spencer,Saturday,10:00,37.7,36.2
+Spencer,Saturday,11:00,36.8,36.0
+Spencer,Saturday,12:00,37.7,35.8
+Spencer,Saturday,13:00,38.8,35.8
+Spencer,Saturday,14:00,39.3,35.7
+Spencer,Saturday,15:00,39.8,36.1
+Spencer,Saturday,16:00,41.2,36.4
+Spencer,Saturday,17:00,41.3,36.7
+Spencer,Saturday,18:00,35.4,37.1
+Spencer,Saturday,19:00,29.0,37.3
+Spencer,Saturday,20:00,19.8,37.3
+Spencer,Saturday,21:00,16.4,37.0
+Spencer,Sunday/holiday,06:00,40.7,34.0
+Spencer,Sunday/holiday,07:00,31.3,34.1
+Spencer,Sunday/holiday,08:00,26.6,34.2
+Spencer,Sunday/holiday,09:00,21.3,34.1
+Spencer,Sunday/holiday,10:00,17.5,34.1
+Spencer,Sunday/holiday,11:00,16.9,34.1
+Spencer,Sunday/holiday,12:00,17.0,34.0
+Spencer,Sunday/holiday,13:00,16.8,34.0
+Spencer,Sunday/holiday,14:00,17.4,34.0
+Spencer,Sunday/holiday,15:00,19.2,33.9
+Spencer,Sunday/holiday,16:00,22.2,33.9
+Spencer,Sunday/holiday,17:00,23.8,33.9
+Spencer,Sunday/holiday,18:00,26.5,33.7
+Spencer,Sunday/holiday,19:00,26.9,33.6
+Spencer,Sunday/holiday,20:00,25.5,33.4
+Spencer,Sunday/holiday,21:00,29.9,33.0
+Supreme,Weekday,06:00,77.8,94.7
+Supreme,Weekday,07:00,68.4,94.1
+Supreme,Weekday,08:00,59.2,93.9
+Supreme,Weekday,09:00,41.8,94.2
+Supreme,Weekday,10:00,22.2,93.5
+Supreme,Weekday,11:00,19.7,93.0
+Supreme,Weekday,12:00,21.5,92.6
+Supreme,Weekday,13:00,22.8,92.5
+Supreme,Weekday,14:00,24.5,92.0
+Supreme,Weekday,15:00,32.6,91.3
+Supreme,Weekday,16:00,44.4,90.2
+Supreme,Weekday,17:00,55.7,90.0
+Supreme,Weekday,18:00,58.5,91.5
+Supreme,Weekday,19:00,54.3,91.8
+Supreme,Weekday,20:00,50.4,91.1
+Supreme,Weekday,21:00,52.5,90.4
+Supreme,Saturday,06:00,82.3,95.1
+Supreme,Saturday,07:00,82.6,94.5
+Supreme,Saturday,08:00,81.3,93.8
+Supreme,Saturday,09:00,76.0,93.5
+Supreme,Saturday,10:00,68.9,93.1
+Supreme,Saturday,11:00,62.5,93.1
+Supreme,Saturday,12:00,59.3,93.2
+Supreme,Saturday,13:00,57.3,93.5
+Supreme,Saturday,14:00,55.7,93.3
+Supreme,Saturday,15:00,60.1,93.1
+Supreme,Saturday,16:00,65.7,92.9
+Supreme,Saturday,17:00,69.8,92.9
+Supreme,Saturday,18:00,66.6,92.9
+Supreme,Saturday,19:00,48.8,92.7
+Supreme,Saturday,20:00,22.5,92.5
+Supreme,Saturday,21:00,14.5,92.5
+Supreme,Sunday/holiday,06:00,68.9,86.9
+Supreme,Sunday/holiday,07:00,51.9,86.2
+Supreme,Sunday/holiday,08:00,28.3,85.4
+Supreme,Sunday/holiday,09:00,18.1,85.2
+Supreme,Sunday/holiday,10:00,15.3,85.0
+Supreme,Sunday/holiday,11:00,14.6,84.9
+Supreme,Sunday/holiday,12:00,14.0,84.9
+Supreme,Sunday/holiday,13:00,13.4,84.7
+Supreme,Sunday/holiday,14:00,13.5,84.6
+Supreme,Sunday/holiday,15:00,15.7,84.5
+Supreme,Sunday/holiday,16:00,19.0,84.2
+Supreme,Sunday/holiday,17:00,24.4,83.8
+Supreme,Sunday/holiday,18:00,26.3,83.5
+Supreme,Sunday/holiday,19:00,27.4,83.2
+Supreme,Sunday/holiday,20:00,32.8,82.8
+Supreme,Sunday/holiday,21:00,45.3,82.4
+Tavistock,Weekday,06:00,63.2,11.3
+Tavistock,Weekday,07:00,66.5,11.2
+Tavistock,Weekday,08:00,69.5,11.2
+Tavistock,Weekday,09:00,50.4,11.2
+Tavistock,Weekday,10:00,28.9,11.2
+Tavistock,Weekday,11:00,24.9,11.2
+Tavistock,Weekday,12:00,26.3,11.2
+Tavistock,Weekday,13:00,27.4,11.2
+Tavistock,Weekday,14:00,29.3,11.2
+Tavistock,Weekday,15:00,38.8,11.1
+Tavistock,Weekday,16:00,61.5,11.1
+Tavistock,Weekday,17:00,68.6,11.1
+Tavistock,Weekday,18:00,60.8,11.1
+Tavistock,Weekday,19:00,45.9,11.1
+Tavistock,Weekday,20:00,40.0,11.1
+Tavistock,Weekday,21:00,42.0,11.0
+Tavistock,Saturday,06:00,67.0,11.1
+Tavistock,Saturday,07:00,54.3,11.2
+Tavistock,Saturday,08:00,54.4,11.2
+Tavistock,Saturday,09:00,50.7,11.0
+Tavistock,Saturday,10:00,46.4,11.0
+Tavistock,Saturday,11:00,44.9,11.0
+Tavistock,Saturday,12:00,45.9,11.0
+Tavistock,Saturday,13:00,48.1,11.0
+Tavistock,Saturday,14:00,50.8,11.1
+Tavistock,Saturday,15:00,53.4,11.0
+Tavistock,Saturday,16:00,57.5,11.0
+Tavistock,Saturday,17:00,62.7,11.0
+Tavistock,Saturday,18:00,49.7,10.9
+Tavistock,Saturday,19:00,29.6,11.0
+Tavistock,Saturday,20:00,19.3,11.0
+Tavistock,Saturday,21:00,18.4,11.0
+Tavistock,Sunday/holiday,06:00,52.8,10.6
+Tavistock,Sunday/holiday,07:00,39.2,10.6
+Tavistock,Sunday/holiday,08:00,34.1,10.5
+Tavistock,Sunday/holiday,09:00,30.3,10.5
+Tavistock,Sunday/holiday,10:00,26.6,10.4
+Tavistock,Sunday/holiday,11:00,24.9,10.5
+Tavistock,Sunday/holiday,12:00,23.0,10.4
+Tavistock,Sunday/holiday,13:00,22.1,10.4
+Tavistock,Sunday/holiday,14:00,22.2,10.4
+Tavistock,Sunday/holiday,15:00,25.8,10.4
+Tavistock,Sunday/holiday,16:00,27.2,10.4
+Tavistock,Sunday/holiday,17:00,31.2,10.4
+Tavistock,Sunday/holiday,18:00,33.9,10.3
+Tavistock,Sunday/holiday,19:00,30.6,10.3
+Tavistock,Sunday/holiday,20:00,32.3,10.3
+Tavistock,Sunday/holiday,21:00,37.2,10.3
+The Mac,Weekday,06:00,62.7,30.7
+The Mac,Weekday,07:00,59.3,30.7
+The Mac,Weekday,08:00,61.8,30.8
+The Mac,Weekday,09:00,55.0,30.7
+The Mac,Weekday,10:00,42.8,30.7
+The Mac,Weekday,11:00,38.0,30.7
+The Mac,Weekday,12:00,37.3,30.7
+The Mac,Weekday,13:00,37.2,30.7
+The Mac,Weekday,14:00,39.6,30.5
+The Mac,Weekday,15:00,44.6,30.5
+The Mac,Weekday,16:00,49.5,30.5
+The Mac,Weekday,17:00,52.1,30.5
+The Mac,Weekday,18:00,44.6,30.7
+The Mac,Weekday,19:00,35.0,30.6
+The Mac,Weekday,20:00,30.2,30.4
+The Mac,Weekday,21:00,31.6,30.2
+The Mac,Saturday,06:00,66.9,30.5
+The Mac,Saturday,07:00,65.4,30.6
+The Mac,Saturday,08:00,64.7,30.8
+The Mac,Saturday,09:00,60.6,30.7
+The Mac,Saturday,10:00,49.4,30.6
+The Mac,Saturday,11:00,43.5,30.6
+The Mac,Saturday,12:00,41.7,30.4
+The Mac,Saturday,13:00,41.8,30.4
+The Mac,Saturday,14:00,40.9,30.4
+The Mac,Saturday,15:00,40.1,30.4
+The Mac,Saturday,16:00,43.1,30.4
+The Mac,Saturday,17:00,46.8,30.4
+The Mac,Saturday,18:00,41.1,30.4
+The Mac,Saturday,19:00,30.6,30.5
+The Mac,Saturday,20:00,22.9,30.4
+The Mac,Saturday,21:00,23.2,30.3
+The Mac,Sunday/holiday,06:00,61.5,29.2
+The Mac,Sunday/holiday,07:00,54.0,29.3
+The Mac,Sunday/holiday,08:00,48.5,29.4
+The Mac,Sunday/holiday,09:00,35.0,29.4
+The Mac,Sunday/holiday,10:00,28.1,29.5
+The Mac,Sunday/holiday,11:00,26.4,29.4
+The Mac,Sunday/holiday,12:00,25.0,29.4
+The Mac,Sunday/holiday,13:00,23.9,29.4
+The Mac,Sunday/holiday,14:00,24.9,29.3
+The Mac,Sunday/holiday,15:00,25.6,29.4
+The Mac,Sunday/holiday,16:00,24.9,29.3
+The Mac,Sunday/holiday,17:00,26.2,29.4
+The Mac,Sunday/holiday,18:00,23.8,29.5
+The Mac,Sunday/holiday,19:00,24.0,29.5
+The Mac,Sunday/holiday,20:00,25.6,29.2
+The Mac,Sunday/holiday,21:00,29.4,29.0
+Titles,Weekday,06:00,60.7,138.0
+Titles,Weekday,07:00,58.3,137.4
+Titles,Weekday,08:00,60.7,136.8
+Titles,Weekday,09:00,53.8,136.7
+Titles,Weekday,10:00,36.7,136.1
+Titles,Weekday,11:00,27.7,135.8
+Titles,Weekday,12:00,26.1,135.5
+Titles,Weekday,13:00,26.3,135.9
+Titles,Weekday,14:00,30.3,136.1
+Titles,Weekday,15:00,39.0,135.8
+Titles,Weekday,16:00,48.3,135.5
+Titles,Weekday,17:00,52.9,136.0
+Titles,Weekday,18:00,41.8,137.2
+Titles,Weekday,19:00,23.3,137.6
+Titles,Weekday,20:00,17.3,136.9
+Titles,Weekday,21:00,20.4,135.9
+Titles,Saturday,06:00,55.5,138.5
+Titles,Saturday,07:00,59.5,138.4
+Titles,Saturday,08:00,64.5,138.3
+Titles,Saturday,09:00,59.0,137.8
+Titles,Saturday,10:00,50.6,137.4
+Titles,Saturday,11:00,40.3,137.0
+Titles,Saturday,12:00,35.4,136.6
+Titles,Saturday,13:00,32.9,136.7
+Titles,Saturday,14:00,35.0,136.1
+Titles,Saturday,15:00,41.3,136.4
+Titles,Saturday,16:00,47.9,136.7
+Titles,Saturday,17:00,50.0,136.6
+Titles,Saturday,18:00,34.9,136.1
+Titles,Saturday,19:00,14.3,136.5
+Titles,Saturday,20:00,8.9,136.5
+Titles,Saturday,21:00,9.3,135.9
+Titles,Sunday/holiday,06:00,62.5,136.3
+Titles,Sunday/holiday,07:00,62.9,136.4
+Titles,Sunday/holiday,08:00,59.4,136.7
+Titles,Sunday/holiday,09:00,43.1,136.6
+Titles,Sunday/holiday,10:00,25.5,136.2
+Titles,Sunday/holiday,11:00,14.9,135.8
+Titles,Sunday/holiday,12:00,11.7,136.0
+Titles,Sunday/holiday,13:00,10.7,135.8
+Titles,Sunday/holiday,14:00,11.1,135.8
+Titles,Sunday/holiday,15:00,13.2,136.0
+Titles,Sunday/holiday,16:00,16.2,136.3
+Titles,Sunday/holiday,17:00,14.6,136.4
+Titles,Sunday/holiday,18:00,9.2,136.2
+Titles,Sunday/holiday,19:00,9.1,135.5
+Titles,Sunday/holiday,20:00,10.8,134.7
+Titles,Sunday/holiday,21:00,17.9,133.5
+Twin Towers,Weekday,06:00,58.5,40.3
+Twin Towers,Weekday,07:00,45.2,40.3
+Twin Towers,Weekday,08:00,41.0,40.2
+Twin Towers,Weekday,09:00,33.1,40.3
+Twin Towers,Weekday,10:00,23.9,40.3
+Twin Towers,Weekday,11:00,23.5,40.1
+Twin Towers,Weekday,12:00,24.4,40.1
+Twin Towers,Weekday,13:00,25.1,40.1
+Twin Towers,Weekday,14:00,26.9,40.2
+Twin Towers,Weekday,15:00,32.0,40.2
+Twin Towers,Weekday,16:00,40.8,40.2
+Twin Towers,Weekday,17:00,46.6,40.2
+Twin Towers,Weekday,18:00,36.8,40.3
+Twin Towers,Weekday,19:00,25.2,40.2
+Twin Towers,Weekday,20:00,24.9,40.1
+Twin Towers,Weekday,21:00,30.4,39.9
+Twin Towers,Saturday,06:00,70.6,40.2
+Twin Towers,Saturday,07:00,67.7,40.2
+Twin Towers,Saturday,08:00,66.0,40.0
+Twin Towers,Saturday,09:00,56.0,39.8
+Twin Towers,Saturday,10:00,47.6,39.8
+Twin Towers,Saturday,11:00,46.5,39.8
+Twin Towers,Saturday,12:00,44.8,39.8
+Twin Towers,Saturday,13:00,40.8,39.9
+Twin Towers,Saturday,14:00,39.7,39.9
+Twin Towers,Saturday,15:00,40.9,39.7
+Twin Towers,Saturday,16:00,49.1,39.6
+Twin Towers,Saturday,17:00,50.8,39.6
+Twin Towers,Saturday,18:00,35.9,39.1
+Twin Towers,Saturday,19:00,22.9,39.2
+Twin Towers,Saturday,20:00,20.2,39.2
+Twin Towers,Saturday,21:00,21.8,39.1
+Twin Towers,Sunday/holiday,06:00,69.6,39.4
+Twin Towers,Sunday/holiday,07:00,69.0,39.3
+Twin Towers,Sunday/holiday,08:00,64.7,39.3
+Twin Towers,Sunday/holiday,09:00,56.4,39.3
+Twin Towers,Sunday/holiday,10:00,48.8,39.3
+Twin Towers,Sunday/holiday,11:00,42.3,39.4
+Twin Towers,Sunday/holiday,12:00,37.0,39.4
+Twin Towers,Sunday/holiday,13:00,33.1,39.2
+Twin Towers,Sunday/holiday,14:00,32.9,39.1
+Twin Towers,Sunday/holiday,15:00,35.1,39.3
+Twin Towers,Sunday/holiday,16:00,38.7,39.2
+Twin Towers,Sunday/holiday,17:00,34.9,39.3
+Twin Towers,Sunday/holiday,18:00,24.9,39.3
+Twin Towers,Sunday/holiday,19:00,22.9,39.2
+Twin Towers,Sunday/holiday,20:00,25.7,39.1
+Twin Towers,Sunday/holiday,21:00,35.2,38.9
+University,Weekday,06:00,72.6,116.5
+University,Weekday,07:00,60.0,116.5
+University,Weekday,08:00,49.2,116.5
+University,Weekday,09:00,29.5,116.4
+University,Weekday,10:00,17.0,116.5
+University,Weekday,11:00,14.2,116.4
+University,Weekday,12:00,15.1,116.4
+University,Weekday,13:00,14.0,116.4
+University,Weekday,14:00,16.3,116.3
+University,Weekday,15:00,24.2,116.3
+University,Weekday,16:00,31.4,116.2
+University,Weekday,17:00,30.4,116.1
+University,Weekday,18:00,19.4,116.1
+University,Weekday,19:00,15.9,116.0
+University,Weekday,20:00,21.7,116.0
+University,Weekday,21:00,36.8,115.9
+University,Saturday,06:00,82.7,116.9
+University,Saturday,07:00,77.0,116.7
+University,Saturday,08:00,71.1,116.3
+University,Saturday,09:00,53.0,116.1
+University,Saturday,10:00,34.2,116.0
+University,Saturday,11:00,23.3,115.8
+University,Saturday,12:00,17.7,115.6
+University,Saturday,13:00,14.8,115.5
+University,Saturday,14:00,14.4,115.7
+University,Saturday,15:00,16.8,115.6
+University,Saturday,16:00,22.7,115.6
+University,Saturday,17:00,30.6,115.4
+University,Saturday,18:00,29.8,114.9
+University,Saturday,19:00,26.8,114.9
+University,Saturday,20:00,28.5,115.1
+University,Saturday,21:00,34.0,115.1
+University,Sunday/holiday,06:00,80.8,112.4
+University,Sunday/holiday,07:00,71.5,112.3
+University,Sunday/holiday,08:00,64.3,112.2
+University,Sunday/holiday,09:00,48.0,112.2
+University,Sunday/holiday,10:00,32.3,112.3
+University,Sunday/holiday,11:00,20.8,112.3
+University,Sunday/holiday,12:00,15.5,112.2
+University,Sunday/holiday,13:00,12.8,112.2
+University,Sunday/holiday,14:00,13.0,112.1
+University,Sunday/holiday,15:00,15.1,112.1
+University,Sunday/holiday,16:00,19.8,111.9
+University,Sunday/holiday,17:00,25.9,111.9
+University,Sunday/holiday,18:00,27.1,111.9
+University,Sunday/holiday,19:00,27.8,111.8
+University,Sunday/holiday,20:00,36.1,111.8
+University,Sunday/holiday,21:00,47.2,111.7
+Victoria Market,Weekday,06:00,75.2,165.5
+Victoria Market,Weekday,07:00,72.1,166.3
+Victoria Market,Weekday,08:00,77.1,167.5
+Victoria Market,Weekday,09:00,73.2,167.4
+Victoria Market,Weekday,10:00,63.7,167.2
+Victoria Market,Weekday,11:00,55.4,167.0
+Victoria Market,Weekday,12:00,51.4,166.6
+Victoria Market,Weekday,13:00,54.0,166.2
+Victoria Market,Weekday,14:00,62.3,165.4
+Victoria Market,Weekday,15:00,72.0,164.7
+Victoria Market,Weekday,16:00,77.7,164.0
+Victoria Market,Weekday,17:00,78.0,163.1
+Victoria Market,Weekday,18:00,70.2,162.4
+Victoria Market,Weekday,19:00,58.5,161.6
+Victoria Market,Weekday,20:00,53.5,157.1
+Victoria Market,Weekday,21:00,57.4,152.3
+Victoria Market,Saturday,06:00,67.2,165.9
+Victoria Market,Saturday,07:00,64.8,166.4
+Victoria Market,Saturday,08:00,64.9,167.0
+Victoria Market,Saturday,09:00,58.1,166.5
+Victoria Market,Saturday,10:00,49.7,166.2
+Victoria Market,Saturday,11:00,41.4,165.8
+Victoria Market,Saturday,12:00,34.3,165.2
+Victoria Market,Saturday,13:00,33.7,164.8
+Victoria Market,Saturday,14:00,38.4,164.6
+Victoria Market,Saturday,15:00,56.4,163.6
+Victoria Market,Saturday,16:00,75.5,162.9
+Victoria Market,Saturday,17:00,81.0,162.3
+Victoria Market,Saturday,18:00,77.9,161.5
+Victoria Market,Saturday,19:00,65.1,160.5
+Victoria Market,Saturday,20:00,47.8,159.6
+Victoria Market,Saturday,21:00,41.9,158.4
+Victoria Market,Sunday/holiday,06:00,78.9,161.6
+Victoria Market,Sunday/holiday,07:00,73.6,162.6
+Victoria Market,Sunday/holiday,08:00,59.2,163.7
+Victoria Market,Sunday/holiday,09:00,40.5,163.7
+Victoria Market,Sunday/holiday,10:00,24.9,163.3
+Victoria Market,Sunday/holiday,11:00,20.5,163.0
+Victoria Market,Sunday/holiday,12:00,19.4,162.8
+Victoria Market,Sunday/holiday,13:00,17.5,162.8
+Victoria Market,Sunday/holiday,14:00,17.4,162.6
+Victoria Market,Sunday/holiday,15:00,20.9,162.1
+Victoria Market,Sunday/holiday,16:00,41.4,159.4
+Victoria Market,Sunday/holiday,17:00,57.5,157.1
+Victoria Market,Sunday/holiday,18:00,52.3,156.6
+Victoria Market,Sunday/holiday,19:00,41.2,156.4
+Victoria Market,Sunday/holiday,20:00,42.2,154.0
+Victoria Market,Sunday/holiday,21:00,52.3,150.9
+West Melbourne,Weekday,06:00,59.0,85.9
+West Melbourne,Weekday,07:00,54.6,86.0
+West Melbourne,Weekday,08:00,51.6,86.3
+West Melbourne,Weekday,09:00,48.1,86.4
+West Melbourne,Weekday,10:00,39.0,86.4
+West Melbourne,Weekday,11:00,33.3,86.5
+West Melbourne,Weekday,12:00,26.3,86.5
+West Melbourne,Weekday,13:00,22.7,86.5
+West Melbourne,Weekday,14:00,30.3,86.6
+West Melbourne,Weekday,15:00,36.2,86.6
+West Melbourne,Weekday,16:00,48.5,86.7
+West Melbourne,Weekday,17:00,44.8,86.5
+West Melbourne,Weekday,18:00,40.8,86.4
+West Melbourne,Weekday,19:00,36.2,86.3
+West Melbourne,Weekday,20:00,34.1,86.1
+West Melbourne,Weekday,21:00,40.9,85.6
+West Melbourne,Saturday,06:00,59.2,85.4
+West Melbourne,Saturday,07:00,58.2,85.6
+West Melbourne,Saturday,08:00,54.6,86.0
+West Melbourne,Saturday,09:00,48.1,85.8
+West Melbourne,Saturday,10:00,42.1,85.7
+West Melbourne,Saturday,11:00,39.0,85.8
+West Melbourne,Saturday,12:00,34.1,85.9
+West Melbourne,Saturday,13:00,28.0,85.9
+West Melbourne,Saturday,14:00,30.1,85.9
+West Melbourne,Saturday,15:00,32.7,85.9
+West Melbourne,Saturday,16:00,34.1,85.9
+West Melbourne,Saturday,17:00,32.4,85.9
+West Melbourne,Saturday,18:00,30.0,85.8
+West Melbourne,Saturday,19:00,25.8,85.9
+West Melbourne,Saturday,20:00,20.2,85.9
+West Melbourne,Saturday,21:00,19.4,85.9
+West Melbourne,Sunday/holiday,06:00,53.9,83.4
+West Melbourne,Sunday/holiday,07:00,51.7,83.4
+West Melbourne,Sunday/holiday,08:00,48.7,83.6
+West Melbourne,Sunday/holiday,09:00,40.0,83.6
+West Melbourne,Sunday/holiday,10:00,32.7,83.4
+West Melbourne,Sunday/holiday,11:00,26.0,83.2
+West Melbourne,Sunday/holiday,12:00,20.2,83.0
+West Melbourne,Sunday/holiday,13:00,15.9,82.9
+West Melbourne,Sunday/holiday,14:00,16.1,82.9
+West Melbourne,Sunday/holiday,15:00,19.8,82.9
+West Melbourne,Sunday/holiday,16:00,26.2,82.8
+West Melbourne,Sunday/holiday,17:00,31.4,82.7
+West Melbourne,Sunday/holiday,18:00,35.5,82.5
+West Melbourne,Sunday/holiday,19:00,36.8,82.3
+West Melbourne,Sunday/holiday,20:00,37.0,82.0
+West Melbourne,Sunday/holiday,21:00,42.7,81.7
+Windsor,Weekday,06:00,48.3,40.3
+Windsor,Weekday,07:00,40.2,40.3
+Windsor,Weekday,08:00,47.5,40.3
+Windsor,Weekday,09:00,42.6,40.3
+Windsor,Weekday,10:00,23.8,40.2
+Windsor,Weekday,11:00,18.5,40.2
+Windsor,Weekday,12:00,17.1,40.2
+Windsor,Weekday,13:00,16.7,40.2
+Windsor,Weekday,14:00,19.8,40.2
+Windsor,Weekday,15:00,27.3,40.2
+Windsor,Weekday,16:00,34.6,40.3
+Windsor,Weekday,17:00,38.2,40.3
+Windsor,Weekday,18:00,25.2,40.2
+Windsor,Weekday,19:00,13.6,40.2
+Windsor,Weekday,20:00,14.2,40.2
+Windsor,Weekday,21:00,20.2,40.2
+Windsor,Saturday,06:00,61.8,40.4
+Windsor,Saturday,07:00,65.1,40.3
+Windsor,Saturday,08:00,63.1,40.3
+Windsor,Saturday,09:00,49.8,40.1
+Windsor,Saturday,10:00,42.6,40.1
+Windsor,Saturday,11:00,39.8,40.2
+Windsor,Saturday,12:00,32.7,40.1
+Windsor,Saturday,13:00,26.3,40.1
+Windsor,Saturday,14:00,27.0,40.1
+Windsor,Saturday,15:00,33.5,40.1
+Windsor,Saturday,16:00,37.7,40.2
+Windsor,Saturday,17:00,41.6,40.1
+Windsor,Saturday,18:00,20.6,40.0
+Windsor,Saturday,19:00,11.6,40.0
+Windsor,Saturday,20:00,10.8,39.9
+Windsor,Saturday,21:00,10.5,39.8
+Windsor,Sunday/holiday,06:00,64.0,39.5
+Windsor,Sunday/holiday,07:00,66.1,39.5
+Windsor,Sunday/holiday,08:00,62.8,39.5
+Windsor,Sunday/holiday,09:00,50.5,39.5
+Windsor,Sunday/holiday,10:00,43.3,39.5
+Windsor,Sunday/holiday,11:00,31.3,39.4
+Windsor,Sunday/holiday,12:00,18.5,39.5
+Windsor,Sunday/holiday,13:00,14.4,39.5
+Windsor,Sunday/holiday,14:00,17.4,39.5
+Windsor,Sunday/holiday,15:00,25.1,39.6
+Windsor,Sunday/holiday,16:00,29.1,39.7
+Windsor,Sunday/holiday,17:00,23.7,39.8
+Windsor,Sunday/holiday,18:00,11.4,39.9
+Windsor,Sunday/holiday,19:00,10.1,39.9
+Windsor,Sunday/holiday,20:00,11.9,39.8
+Windsor,Sunday/holiday,21:00,22.2,39.7

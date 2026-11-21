@@ -1,0 +1,241 @@
+price_band,rate_per_hour,day_type,hour,occupied_pct,avg_reporting_bays,bays
+$2.20/h meter (4h),2.2,Weekday,06:00,21.1,429.1,474
+$2.20/h meter (4h),2.2,Weekday,07:00,33.3,429.5,474
+$2.20/h meter (4h),2.2,Weekday,08:00,44.2,429.9,474
+$2.20/h meter (4h),2.2,Weekday,09:00,59.5,430.0,474
+$2.20/h meter (4h),2.2,Weekday,10:00,73.5,429.9,474
+$2.20/h meter (4h),2.2,Weekday,11:00,79.6,429.8,474
+$2.20/h meter (4h),2.2,Weekday,12:00,80.9,429.7,474
+$2.20/h meter (4h),2.2,Weekday,13:00,79.9,429.5,474
+$2.20/h meter (4h),2.2,Weekday,14:00,75.8,429.0,474
+$2.20/h meter (4h),2.2,Weekday,15:00,66.6,428.2,474
+$2.20/h meter (4h),2.2,Weekday,16:00,57.2,427.2,474
+$2.20/h meter (4h),2.2,Weekday,17:00,51.7,426.4,474
+$2.20/h meter (4h),2.2,Weekday,18:00,53.3,425.9,474
+$2.20/h meter (4h),2.2,Weekday,19:00,57.1,425.6,474
+$2.20/h meter (4h),2.2,Weekday,20:00,54.2,425.2,474
+$2.20/h meter (4h),2.2,Weekday,21:00,43.1,424.6,474
+$2.20/h meter (4h),2.2,Saturday,06:00,17.4,429.1,474
+$2.20/h meter (4h),2.2,Saturday,07:00,22.2,428.6,474
+$2.20/h meter (4h),2.2,Saturday,08:00,30.1,428.0,474
+$2.20/h meter (4h),2.2,Saturday,09:00,43.4,427.7,474
+$2.20/h meter (4h),2.2,Saturday,10:00,57.3,427.3,474
+$2.20/h meter (4h),2.2,Saturday,11:00,67.4,426.9,474
+$2.20/h meter (4h),2.2,Saturday,12:00,72.8,427.1,474
+$2.20/h meter (4h),2.2,Saturday,13:00,75.7,427.3,474
+$2.20/h meter (4h),2.2,Saturday,14:00,75.9,427.0,474
+$2.20/h meter (4h),2.2,Saturday,15:00,70.5,426.2,474
+$2.20/h meter (4h),2.2,Saturday,16:00,63.3,425.7,474
+$2.20/h meter (4h),2.2,Saturday,17:00,56.3,425.5,474
+$2.20/h meter (4h),2.2,Saturday,18:00,56.5,425.2,474
+$2.20/h meter (4h),2.2,Saturday,19:00,60.7,425.4,474
+$2.20/h meter (4h),2.2,Saturday,20:00,56.7,425.2,474
+$2.20/h meter (4h),2.2,Saturday,21:00,50.1,424.8,474
+$2.20/h meter (4h),2.2,Sunday/holiday,06:00,21.7,409.3,474
+$2.20/h meter (4h),2.2,Sunday/holiday,07:00,28.9,408.5,474
+$2.20/h meter (4h),2.2,Sunday/holiday,08:00,36.7,407.7,474
+$2.20/h meter (4h),2.2,Sunday/holiday,09:00,49.8,407.6,474
+$2.20/h meter (4h),2.2,Sunday/holiday,10:00,64.6,407.5,474
+$2.20/h meter (4h),2.2,Sunday/holiday,11:00,74.3,407.1,474
+$2.20/h meter (4h),2.2,Sunday/holiday,12:00,77.3,406.7,474
+$2.20/h meter (4h),2.2,Sunday/holiday,13:00,78.1,406.5,474
+$2.20/h meter (4h),2.2,Sunday/holiday,14:00,76.9,406.2,474
+$2.20/h meter (4h),2.2,Sunday/holiday,15:00,70.8,405.6,474
+$2.20/h meter (4h),2.2,Sunday/holiday,16:00,60.3,404.7,474
+$2.20/h meter (4h),2.2,Sunday/holiday,17:00,50.9,403.9,474
+$2.20/h meter (4h),2.2,Sunday/holiday,18:00,46.5,403.4,474
+$2.20/h meter (4h),2.2,Sunday/holiday,19:00,42.1,402.7,474
+$2.20/h meter (4h),2.2,Sunday/holiday,20:00,35.2,402.2,474
+$2.20/h meter (4h),2.2,Sunday/holiday,21:00,30.1,401.7,474
+$2.50/h meter (3h),2.5,Weekday,06:00,23.5,195.7,236
+$2.50/h meter (3h),2.5,Weekday,07:00,28.6,195.9,236
+$2.50/h meter (3h),2.5,Weekday,08:00,32.1,196.2,236
+$2.50/h meter (3h),2.5,Weekday,09:00,42.9,196.1,236
+$2.50/h meter (3h),2.5,Weekday,10:00,57.8,196.0,236
+$2.50/h meter (3h),2.5,Weekday,11:00,65.3,195.8,236
+$2.50/h meter (3h),2.5,Weekday,12:00,67.8,195.6,236
+$2.50/h meter (3h),2.5,Weekday,13:00,67.2,195.4,236
+$2.50/h meter (3h),2.5,Weekday,14:00,63.5,195.2,236
+$2.50/h meter (3h),2.5,Weekday,15:00,55.3,194.7,236
+$2.50/h meter (3h),2.5,Weekday,16:00,44.4,194.0,236
+$2.50/h meter (3h),2.5,Weekday,17:00,44.6,193.6,236
+$2.50/h meter (3h),2.5,Weekday,18:00,58.3,193.6,236
+$2.50/h meter (3h),2.5,Weekday,19:00,67.8,193.5,236
+$2.50/h meter (3h),2.5,Weekday,20:00,67.5,192.9,236
+$2.50/h meter (3h),2.5,Weekday,21:00,58.1,192.1,236
+$2.50/h meter (3h),2.5,Saturday,06:00,23.4,194.7,236
+$2.50/h meter (3h),2.5,Saturday,07:00,27.1,194.4,236
+$2.50/h meter (3h),2.5,Saturday,08:00,30.1,194.1,236
+$2.50/h meter (3h),2.5,Saturday,09:00,38.1,193.7,236
+$2.50/h meter (3h),2.5,Saturday,10:00,47.8,193.5,236
+$2.50/h meter (3h),2.5,Saturday,11:00,54.5,193.4,236
+$2.50/h meter (3h),2.5,Saturday,12:00,59.8,193.0,236
+$2.50/h meter (3h),2.5,Saturday,13:00,65.1,192.3,236
+$2.50/h meter (3h),2.5,Saturday,14:00,68.3,192.0,236
+$2.50/h meter (3h),2.5,Saturday,15:00,65.0,191.8,236
+$2.50/h meter (3h),2.5,Saturday,16:00,59.2,191.2,236
+$2.50/h meter (3h),2.5,Saturday,17:00,52.8,190.5,236
+$2.50/h meter (3h),2.5,Saturday,18:00,61.1,189.7,236
+$2.50/h meter (3h),2.5,Saturday,19:00,74.2,189.8,236
+$2.50/h meter (3h),2.5,Saturday,20:00,79.2,189.9,236
+$2.50/h meter (3h),2.5,Saturday,21:00,75.0,189.6,236
+$2.50/h meter (3h),2.5,Sunday/holiday,06:00,28.9,191.4,236
+$2.50/h meter (3h),2.5,Sunday/holiday,07:00,31.9,191.2,236
+$2.50/h meter (3h),2.5,Sunday/holiday,08:00,36.9,191.2,236
+$2.50/h meter (3h),2.5,Sunday/holiday,09:00,45.6,190.9,236
+$2.50/h meter (3h),2.5,Sunday/holiday,10:00,57.4,190.7,236
+$2.50/h meter (3h),2.5,Sunday/holiday,11:00,66.7,190.6,236
+$2.50/h meter (3h),2.5,Sunday/holiday,12:00,73.5,190.2,236
+$2.50/h meter (3h),2.5,Sunday/holiday,13:00,78.0,189.6,236
+$2.50/h meter (3h),2.5,Sunday/holiday,14:00,81.4,189.2,236
+$2.50/h meter (3h),2.5,Sunday/holiday,15:00,79.7,188.7,236
+$2.50/h meter (3h),2.5,Sunday/holiday,16:00,74.5,188.1,236
+$2.50/h meter (3h),2.5,Sunday/holiday,17:00,66.8,187.1,236
+$2.50/h meter (3h),2.5,Sunday/holiday,18:00,62.3,186.0,236
+$2.50/h meter (3h),2.5,Sunday/holiday,19:00,58.6,185.3,236
+$2.50/h meter (3h),2.5,Sunday/holiday,20:00,53.1,184.6,236
+$2.50/h meter (3h),2.5,Sunday/holiday,21:00,46.8,183.9,236
+$4.00/h meter (≤2h),4.0,Weekday,06:00,25.5,1420.1,1622
+$4.00/h meter (≤2h),4.0,Weekday,07:00,32.0,1420.9,1622
+$4.00/h meter (≤2h),4.0,Weekday,08:00,34.9,1423.0,1622
+$4.00/h meter (≤2h),4.0,Weekday,09:00,44.6,1422.2,1622
+$4.00/h meter (≤2h),4.0,Weekday,10:00,58.6,1419.5,1622
+$4.00/h meter (≤2h),4.0,Weekday,11:00,64.4,1417.1,1622
+$4.00/h meter (≤2h),4.0,Weekday,12:00,65.2,1415.1,1622
+$4.00/h meter (≤2h),4.0,Weekday,13:00,64.4,1413.3,1622
+$4.00/h meter (≤2h),4.0,Weekday,14:00,59.8,1411.2,1622
+$4.00/h meter (≤2h),4.0,Weekday,15:00,51.9,1408.8,1622
+$4.00/h meter (≤2h),4.0,Weekday,16:00,45.1,1405.0,1622
+$4.00/h meter (≤2h),4.0,Weekday,17:00,45.3,1402.5,1622
+$4.00/h meter (≤2h),4.0,Weekday,18:00,57.1,1402.2,1622
+$4.00/h meter (≤2h),4.0,Weekday,19:00,65.6,1401.3,1622
+$4.00/h meter (≤2h),4.0,Weekday,20:00,64.1,1393.4,1622
+$4.00/h meter (≤2h),4.0,Weekday,21:00,55.5,1383.4,1622
+$4.00/h meter (≤2h),4.0,Saturday,06:00,24.1,1411.4,1622
+$4.00/h meter (≤2h),4.0,Saturday,07:00,28.8,1411.2,1622
+$4.00/h meter (≤2h),4.0,Saturday,08:00,33.4,1410.9,1622
+$4.00/h meter (≤2h),4.0,Saturday,09:00,41.8,1407.9,1622
+$4.00/h meter (≤2h),4.0,Saturday,10:00,50.8,1405.3,1622
+$4.00/h meter (≤2h),4.0,Saturday,11:00,57.8,1403.6,1622
+$4.00/h meter (≤2h),4.0,Saturday,12:00,62.9,1400.4,1622
+$4.00/h meter (≤2h),4.0,Saturday,13:00,65.7,1397.7,1622
+$4.00/h meter (≤2h),4.0,Saturday,14:00,65.9,1395.4,1622
+$4.00/h meter (≤2h),4.0,Saturday,15:00,60.2,1393.2,1622
+$4.00/h meter (≤2h),4.0,Saturday,16:00,54.5,1390.4,1622
+$4.00/h meter (≤2h),4.0,Saturday,17:00,53.3,1387.0,1622
+$4.00/h meter (≤2h),4.0,Saturday,18:00,62.3,1383.0,1622
+$4.00/h meter (≤2h),4.0,Saturday,19:00,71.1,1381.7,1622
+$4.00/h meter (≤2h),4.0,Saturday,20:00,74.3,1379.0,1622
+$4.00/h meter (≤2h),4.0,Saturday,21:00,72.2,1374.8,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,06:00,26.0,1357.7,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,07:00,30.8,1359.0,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,08:00,39.4,1360.3,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,09:00,52.9,1359.3,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,10:00,65.8,1357.6,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,11:00,72.7,1355.5,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,12:00,75.5,1353.6,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,13:00,77.6,1351.9,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,14:00,78.6,1350.5,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,15:00,75.7,1348.8,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,16:00,68.0,1343.9,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,17:00,62.4,1337.4,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,18:00,62.7,1332.9,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,19:00,62.6,1329.1,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,20:00,57.4,1321.6,1622
+$4.00/h meter (≤2h),4.0,Sunday/holiday,21:00,49.1,1312.8,1622
+$7.00/h CBD meter,7.0,Weekday,06:00,34.5,956.8,1136
+$7.00/h CBD meter,7.0,Weekday,07:00,41.7,954.7,1136
+$7.00/h CBD meter,7.0,Weekday,08:00,43.1,953.3,1136
+$7.00/h CBD meter,7.0,Weekday,09:00,52.6,953.3,1136
+$7.00/h CBD meter,7.0,Weekday,10:00,70.7,950.5,1136
+$7.00/h CBD meter,7.0,Weekday,11:00,77.4,948.7,1136
+$7.00/h CBD meter,7.0,Weekday,12:00,77.6,947.8,1136
+$7.00/h CBD meter,7.0,Weekday,13:00,77.4,948.2,1136
+$7.00/h CBD meter,7.0,Weekday,14:00,74.4,948.0,1136
+$7.00/h CBD meter,7.0,Weekday,15:00,65.8,946.7,1136
+$7.00/h CBD meter,7.0,Weekday,16:00,53.7,944.6,1136
+$7.00/h CBD meter,7.0,Weekday,17:00,46.7,945.3,1136
+$7.00/h CBD meter,7.0,Weekday,18:00,53.7,949.2,1136
+$7.00/h CBD meter,7.0,Weekday,19:00,67.2,949.5,1136
+$7.00/h CBD meter,7.0,Weekday,20:00,72.1,946.5,1136
+$7.00/h CBD meter,7.0,Weekday,21:00,69.3,942.1,1136
+$7.00/h CBD meter,7.0,Saturday,06:00,26.5,954.0,1136
+$7.00/h CBD meter,7.0,Saturday,07:00,27.1,952.5,1136
+$7.00/h CBD meter,7.0,Saturday,08:00,28.9,949.2,1136
+$7.00/h CBD meter,7.0,Saturday,09:00,35.7,946.7,1136
+$7.00/h CBD meter,7.0,Saturday,10:00,44.3,945.4,1136
+$7.00/h CBD meter,7.0,Saturday,11:00,50.3,945.3,1136
+$7.00/h CBD meter,7.0,Saturday,12:00,54.1,945.0,1136
+$7.00/h CBD meter,7.0,Saturday,13:00,57.3,945.6,1136
+$7.00/h CBD meter,7.0,Saturday,14:00,57.4,945.0,1136
+$7.00/h CBD meter,7.0,Saturday,15:00,53.5,946.6,1136
+$7.00/h CBD meter,7.0,Saturday,16:00,48.3,946.2,1136
+$7.00/h CBD meter,7.0,Saturday,17:00,45.5,945.1,1136
+$7.00/h CBD meter,7.0,Saturday,18:00,58.0,943.0,1136
+$7.00/h CBD meter,7.0,Saturday,19:00,75.7,943.9,1136
+$7.00/h CBD meter,7.0,Saturday,20:00,85.0,943.9,1136
+$7.00/h CBD meter,7.0,Saturday,21:00,86.7,942.0,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,06:00,33.4,931.4,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,07:00,37.0,931.2,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,08:00,44.3,930.8,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,09:00,56.7,929.8,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,10:00,68.9,929.4,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,11:00,79.5,929.0,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,12:00,83.8,929.2,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,13:00,85.2,928.0,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,14:00,84.2,927.5,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,15:00,80.7,928.3,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,16:00,76.7,928.9,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,17:00,76.6,929.7,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,18:00,81.2,928.6,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,19:00,83.2,926.5,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,20:00,80.9,923.4,1136
+$7.00/h CBD meter,7.0,Sunday/holiday,21:00,72.5,918.7,1136
+"Free (no meter, LZ, disabled)",0.0,Weekday,06:00,34.1,1045.5,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,07:00,39.7,1045.4,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,08:00,43.4,1046.0,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,09:00,51.1,1046.0,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,10:00,58.0,1044.2,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,11:00,60.8,1043.4,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,12:00,60.5,1042.6,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,13:00,59.3,1042.0,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,14:00,56.1,1040.5,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,15:00,49.7,1038.3,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,16:00,44.7,1035.8,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,17:00,42.1,1034.4,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,18:00,44.9,1035.4,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,19:00,51.5,1035.1,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,20:00,52.5,1032.5,1545
+"Free (no meter, LZ, disabled)",0.0,Weekday,21:00,48.3,1029.4,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,06:00,31.5,1050.3,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,07:00,35.2,1050.1,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,08:00,38.7,1049.0,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,09:00,42.2,1047.1,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,10:00,46.6,1045.4,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,11:00,49.4,1043.8,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,12:00,51.2,1042.8,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,13:00,52.9,1041.8,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,14:00,54.0,1040.1,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,15:00,51.2,1038.2,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,16:00,47.3,1036.7,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,17:00,44.7,1034.9,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,18:00,49.9,1032.2,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,19:00,56.9,1031.4,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,20:00,59.7,1029.6,1545
+"Free (no meter, LZ, disabled)",0.0,Saturday,21:00,58.3,1027.3,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,06:00,30.0,1027.2,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,07:00,32.2,1026.6,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,08:00,35.7,1025.5,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,09:00,40.8,1024.5,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,10:00,47.1,1023.3,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,11:00,53.2,1022.1,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,12:00,56.3,1021.3,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,13:00,57.9,1019.5,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,14:00,57.9,1019.2,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,15:00,55.9,1018.1,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,16:00,50.9,1016.6,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,17:00,48.0,1014.6,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,18:00,48.7,1013.1,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,19:00,50.0,1011.1,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,20:00,48.4,1008.5,1545
+"Free (no meter, LZ, disabled)",0.0,Sunday/holiday,21:00,44.5,1005.3,1545

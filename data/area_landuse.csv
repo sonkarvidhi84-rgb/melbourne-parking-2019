@@ -1,0 +1,38 @@
+area,land_use,land_use_order,place,sensor_bays,businesses_2019,businesses_per_bay,vacant_premises_pct,main_uses,offices_pct,shops_pct,food_drink_pct,accommodation_pct,health_pct,education_pct,government_pct,arts_recreation_pct,industrial_logistics_pct,personal_services_pct
+Supreme,CBD office core,1,CBD (Hoddle Grid),110,134,1.2,7,"offices 40%, cafés & restaurants 28%, government 9%",39.6,6.0,28.4,2.2,4.5,0.7,9.0,0.7,3.7,5.2
+County,CBD office core,1,CBD (Hoddle Grid),72,208,2.9,13,"offices 44%, cafés & restaurants 25%, government 10%",43.8,3.8,24.5,1.9,2.4,2.4,9.6,1.9,3.8,5.8
+Hyatt,CBD office core,1,CBD (Hoddle Grid),66,323,4.9,11,"offices 56%, cafés & restaurants 14%, shops 9%",56.3,9.3,14.2,0.9,2.5,0.9,2.5,0.6,7.7,5.0
+Hardware,CBD office core,1,CBD (Hoddle Grid),65,489,7.5,10,"offices 44%, cafés & restaurants 18%, personal services 11%",44.2,9.2,17.8,0.4,2.9,8.4,0.4,1.2,4.1,11.5
+Family,CBD office core,1,CBD (Hoddle Grid),49,337,6.9,18,"offices 55%, cafés & restaurants 13%, personal services 11%",54.6,2.4,12.8,0.6,4.7,4.5,3.9,0.3,5.0,11.3
+Twin Towers,CBD office core,1,CBD (Hoddle Grid),46,452,9.8,12,"offices 34%, health clinics 23%, cafés & restaurants 13%",33.6,8.2,13.1,1.8,23.5,1.3,4.6,0.4,6.2,7.3
+McKillop,CBD office core,1,CBD (Hoddle Grid),44,738,16.8,13,"offices 50%, personal services 17%, cafés & restaurants 8%",50.1,7.0,7.9,0.4,4.2,5.3,0.8,0.5,6.4,17.3
+Windsor,CBD office core,1,CBD (Hoddle Grid),44,294,6.7,12,"offices 34%, cafés & restaurants 27%, shops 10%",34.0,9.9,26.9,1.4,2.0,0.3,6.8,2.0,7.8,8.8
+Banks,CBD office core,1,CBD (Hoddle Grid),42,738,17.6,12,"offices 57%, personal services 11%, cafés & restaurants 9%",56.9,5.7,9.1,0.5,3.0,4.3,0.8,1.5,7.6,10.6
+Rialto,CBD office core,1,CBD (Hoddle Grid),42,171,4.1,22,"offices 51%, cafés & restaurants 19%, trades, warehousing & light industry 9%",50.9,4.1,19.3,1.8,0.6,7.0,1.2,2.3,8.8,4.1
+Markilles,CBD office core,1,CBD (Hoddle Grid),38,153,4.0,17,"offices 36%, cafés & restaurants 27%, trades, warehousing & light industry 8%",35.9,3.3,27.5,5.9,2.6,0.0,4.6,3.9,8.5,7.8
+City Square,CBD office core,1,CBD (Hoddle Grid),32,336,10.5,16,"offices 43%, shops 19%, cafés & restaurants 15%",42.9,18.8,14.9,1.8,5.4,0.0,1.2,2.7,6.0,6.5
+RACV,CBD office core,1,CBD (Hoddle Grid),19,403,21.2,16,"offices 67%, cafés & restaurants 10%, personal services 7%",66.5,2.2,10.4,0.7,2.5,3.7,1.2,1.2,4.5,6.9
+Tavistock,CBD office core,1,CBD (Hoddle Grid),12,178,14.8,16,"offices 65%, trades, warehousing & light industry 8%, personal services 7%",64.6,4.5,5.6,0.6,1.7,1.7,2.8,2.8,8.4,7.3
+Titles,"CBD mixed: offices, shops & dining",2,CBD north edge (around La Trobe St),168,267,1.6,17,"offices 39%, cafés & restaurants 22%, personal services 11%",38.6,8.2,21.7,2.6,1.5,7.5,0.4,0.7,7.9,10.9
+Regency,"CBD mixed: offices, shops & dining",2,CBD (Hoddle Grid),155,192,1.2,24,"cafés & restaurants 27%, offices 23%, government 9%",22.9,5.7,26.6,3.6,3.6,5.7,9.4,5.2,8.9,8.3
+Princes Theatre,"CBD mixed: offices, shops & dining",2,CBD (Hoddle Grid),150,263,1.8,11,"cafés & restaurants 37%, offices 16%, personal services 16%",16.3,6.1,36.9,4.6,4.2,7.2,3.0,3.4,1.9,16.3
+Magistrates,"CBD mixed: offices, shops & dining",2,CBD (Hoddle Grid),108,340,3.1,9,"shops 28%, offices 27%, cafés & restaurants 21%",27.4,27.6,20.9,1.2,2.1,6.2,1.2,0.3,5.9,7.4
+Mint,"CBD mixed: offices, shops & dining",2,CBD north edge (around La Trobe St),97,94,1.0,13,"offices 36%, cafés & restaurants 17%, personal services 13%",36.2,3.2,17.0,6.4,3.2,2.1,6.4,7.4,5.3,12.8
+Spencer,"CBD mixed: offices, shops & dining",2,CBD (Hoddle Grid),57,169,3.0,21,"offices 28%, cafés & restaurants 22%, personal services 12%",27.8,10.7,22.5,4.7,5.9,5.3,1.2,1.2,8.9,11.8
+The Mac,"CBD mixed: offices, shops & dining",2,CBD north edge (around La Trobe St),40,217,5.4,22,"cafés & restaurants 28%, education 22%, offices 15%",15.2,10.1,28.1,5.1,1.8,21.7,0.9,3.7,4.1,9.2
+Victoria Market,"Shopping, markets & dining",3,Around Queen Victoria Market,183,210,1.1,7,"shops 58%, cafés & restaurants 23%, trades, warehousing & light industry 8%",1.4,58.1,22.9,2.4,1.0,0.0,1.0,1.0,7.6,4.8
+Library,"Shopping, markets & dining",3,CBD (Hoddle Grid),64,740,11.6,7,"shops 33%, cafés & restaurants 32%, offices 14%",13.6,33.4,32.0,0.4,4.1,1.1,0.4,1.8,2.3,10.9
+Chinatown,"Shopping, markets & dining",3,CBD (Hoddle Grid),32,497,15.5,7,"shops 49%, cafés & restaurants 24%, personal services 12%",7.6,49.5,23.5,0.8,1.8,1.0,0.6,1.0,1.8,12.3
+Degraves,"Shopping, markets & dining",3,CBD (Hoddle Grid),16,1106,69.1,14,"shops 24%, offices 19%, trades, warehousing & light industry 16%",18.5,23.5,12.0,1.0,5.7,4.2,0.2,3.8,16.1,14.9
+Queensberry,Mixed-use: apartments with shops & offices,4,North Melbourne,640,477,0.7,20,"offices 23%, cafés & restaurants 17%, personal services 17%",23.1,13.4,17.0,2.1,7.3,4.0,0.6,3.1,12.8,16.6
+Docklands,Mixed-use: apartments with shops & offices,4,Docklands,487,810,1.7,28,"offices 37%, cafés & restaurants 22%, shops 11%",36.8,11.0,22.3,1.5,3.1,1.2,1.9,4.6,10.0,7.7
+Southbank,Mixed-use: apartments with shops & offices,4,Southbank,468,404,0.9,17,"offices 34%, cafés & restaurants 18%, trades, warehousing & light industry 16%",33.7,6.4,17.8,2.5,5.4,4.0,1.5,8.9,16.3,3.5
+Courtney,Mixed-use: apartments with shops & offices,4,North Melbourne,143,182,1.3,21,"offices 29%, shops 18%, personal services 14%",28.6,17.6,12.6,2.7,2.2,6.0,1.6,2.2,12.6,13.7
+University,Mixed-use: apartments with shops & offices,4,"Carlton / Parkville, by the University",122,56,0.5,16,"hotels & student housing 25%, cafés & restaurants 20%, health clinics 16%",10.7,7.1,19.6,25.0,16.1,14.3,0.0,0.0,1.8,5.4
+West Melbourne,Mixed-use: apartments with shops & offices,4,West Melbourne,94,97,1.0,25,"offices 41%, cafés & restaurants 12%, personal services 11%",41.2,7.2,12.4,2.1,4.1,9.3,3.1,2.1,7.2,11.3
+Drummond,Mixed-use: apartments with shops & offices,4,Carlton,39,82,2.1,16,"offices 23%, cafés & restaurants 23%, personal services 13%",23.2,7.3,23.2,4.9,12.2,1.2,2.4,1.2,11.0,13.4
+Kensington,Mixed-use: apartments with shops & offices,4,Kensington (1 bay only),1,10,10.0,0,"offices 30%, arts & recreation 30%, personal services 20%",30.0,0.0,0.0,0.0,10.0,0.0,10.0,30.0,0.0,20.0
+All,Mainly residential,5,"East Melbourne / Jolimont back streets (Jolimont Tce, Vale St, Wellington Pde Sth)",367,474,1.3,13,"offices 41%, shops 16%, cafés & restaurants 13%",40.7,16.0,12.9,3.6,5.9,1.3,0.6,3.4,6.1,9.5
+Domain,Mainly residential,5,"South Yarra west (Walsh, Airlie, Clowes St)",251,6,0.0,14,"arts & recreation 33%, education 33%, trades, warehousing & light industry 17%",0.0,0.0,0.0,0.0,0.0,33.3,0.0,33.3,16.7,16.7
+East Melbourne,Mainly residential,5,East Melbourne,173,199,1.2,11,"health clinics 72%, offices 10%, personal services 5%",9.5,2.0,4.0,1.0,71.9,3.5,0.5,1.0,2.0,4.5
+Jolimont,Institutional: health & government,6,"Jolimont, by Parliament and the hospitals",302,171,0.6,8,"health clinics 35%, offices 21%, personal services 15%",21.1,0.6,8.2,2.9,35.1,1.8,9.4,4.1,2.3,14.6
