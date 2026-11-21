@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Melbourne parking 2019</title>
+<link rel="stylesheet" href="style.css">
+<script>window.PK_DATA_DIR = "data/";</script>
+<script src="d3.min.js"></script>
+<script src="dash-lite.js"></script>
+</head>
+<body>
+<div id="dash-root">
+<div class="pk-wrap">
+<div class="pk">
+  <header id="top">
+    <h1>Melbourne on-street parking availability, 2019</h1>
+    <p class="sub">City of Melbourne in-ground bay sensors, replayed in 15-minute steps (06:00–22:00) for every day of 2019. Pick a date and time, then zoom the map and click a street block or a bay.</p>
+    <p class="lead" data-draw="takeaway">—</p>
+  </header>
+
+  <div class="card controls" id="controls">
+    <label class="ctl">Date (2019)
+      <input type="date" id="pk-date" min="2019-01-01" max="2019-12-31" value="2019-08-14">
+    </label>
+    <div class="ctl grow">Time of day
+      <div class="timebox">
+        <b data-draw="timelabel">—</b>
+        <input type="range" id="pk-slot" min="0" max="63" step="1" value="24" aria-label="Time of day">
+        <button type="button" class="pkbtn" id="pk-play">Play</button>
+      </div>
+    </div>
+    <label class="ctl">Colour the map by
+      <select class="dash-select" id="pk-mode" aria-label="Map colouring">
+        <option value="moment">Status at this moment</option>
+        <option value="typical">Typical for this day type and hour</option>
+      </select>
+    </label>
+    <label class="ctl">Show
+      <select class="dash-select" id="pk-layer" aria-label="Map layers">
+        <option value="both">Bays and street blocks</option>
+        <option value="bays">Bays only</option>
+        <option value="segs">Street blocks only</option>
+      </select>
+    </label>
+    <label class="ctl">Street
+      <select class="dash-select" data-draw="streetpick" id="pk-street" aria-label="Jump to street"></select>
+    </label>
+  </div>
+
+  <section class="kpis" id="kpis">
+    <div class="card kpi"><div class="l">Sensors reporting</div><div class="v" data-draw="kpi-known">—</div><div class="l" data-draw="kpi-daytype">—</div></div>
+    <div class="card kpi"><div class="l">Vacant bays</div><div class="v" data-draw="kpi-vacant" style="color: var(--color-ok)">—</div><div class="l">free to park in</div></div>
+    <div class="card kpi"><div class="l">Occupied bays</div><div class="v" data-draw="kpi-occ" style="color: var(--color-bad)">—</div><div class="l">vehicle present</div></div>
+    <div class="card kpi"><div class="l">Share free</div><div class="v"><span data-draw="kpi-free">—</span><span>%</span></div><div class="l" data-draw="kpi-typical">—</div></div>
+  </section>
+
+  <section class="mapgrid" id="map-section">
+    <div class="card mapbox" id="map" data-source="bays segments streets">
+      <div class="maptools">
+        <button type="button" class="pkbtn" id="pk-zin" aria-label="Zoom in">+</button>
+        <button type="button" class="pkbtn" id="pk-zout" aria-label="Zoom out">−</button>
+        <button type="button" class="pkbtn" id="pk-zreset" aria-label="Reset view">⤢</button>
+      </div>
+      <div data-draw="map"></div>
+      <div class="legend" id="map-legend">
+        <div class="row"><span class="sw" style="background: var(--color-ok)"></span>Vacant bay</div>
+        <div class="row"><span class="sw" style="background: var(--color-bad)"></span>Occupied bay</div>
+        <div class="row"><span class="sw" style="background: #9aa0a6"></span>No sensor reading</div>
+        <div class="row"><span>Full</span><span class="grad"></span><span>Free</span></div>
+        <div class="muted">Block shading and “typical” colours = share of bays free</div>
+      </div>
+    </div>
+    <aside class="card detail" id="detail">
+      <div data-draw="detail">—</div>
+    </aside>
+  </section>
+
+  <section class="card" id="daycurve-card">
+    <h2>Free bays across the selected day, whole city</h2>
+    <p class="sub">Share of reporting sensors that were vacant at each 15-minute step. The dashed line is the 2019 average for the same day type; the vertical line is the time you picked.</p>
+    <div class="chart" data-draw="daycurve" data-source="city_slots city_free"></div>
+  </section>
+
+  <section class="card" id="heatmap-card">
+    <h2>Which area has free bays, and when</h2>
+    <div class="seg-select">
+      <span class="muted">Day type</span>
+      <select class="dash-select" id="pk-hm-dt" aria-label="Day type for heatmap">
+        <option value="Weekday">Weekday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday/holiday">Sunday / public holiday</option>
+      </select>
+      <span class="muted">Average share of bays free over 2019, by sensor area (rows sorted by midday availability, fullest first). Click a row to zoom the map there.</span>
+    </div>
+    <div class="chart" data-draw="heatmap" data-source="area_hour"></div>
+  </section>
+
+  <section class="two" id="price-section">
+    <div class="card">
+      <h2>Price vs demand: how full each price band gets</h2>
+      <div class="seg-select">
+        <span class="muted">Day type</span>
+        <select class="dash-select" id="pk-pr-dt" aria-label="Day type for price chart">
+          <option value="Weekday">Weekday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday/holiday">Sunday / public holiday</option>
+        </select>
+      </div>
+      <p class="sub">Average share of bays occupied by hour, grouped by the estimated 2019 hourly rate. Rates are estimates from each bay’s sign and location (see notes); meters were mostly not charged on Sundays and after the signed hours.</p>
+      <div class="chart" data-draw="pricechart" data-source="price_hour"></div>
+    </div>
+    <div class="card">
+      <h2>Price bands at a glance</h2>
+      <p class="sub">Bays in each band and their peak average occupancy for the chosen day type.</p>
+      <div class="tablewrap">
+        <table data-source="price_peak" data-row-key="price_band,day_type" id="price-table">
+          <thead><tr><th data-field="price_band">Price band</th><th class="n" data-field="rate_per_hour">$/hour</th><th class="n" data-field="bays">Bays</th><th class="n" data-field="peak_occupied_pct">Peak occupied %</th><th class="n" data-field="peak_hour">Peak hour</th></tr></thead>
+          <tbody data-draw="pricetable"></tbody>
+        </table>
+      </div>
+      <p class="sub" style="margin-top: var(--cds-gap-sm)">Assumed 2019 rates</p>
+      <div class="tablewrap">
+        <table data-source="prices_2019" data-row-key="price_band" id="rate-table">
+          <thead><tr><th data-field="price_band">Band</th><th class="n" data-field="rate_per_hour">$/hour</th><th data-field="applies_to">Applies to</th></tr></thead>
+          <tbody data-draw="ratetable"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="card" id="streets-card">
+    <h2>Street blocks at the selected moment</h2>
+    <p class="sub">Each row is one block (a street between two cross streets). Click a row to select it on the map. Sorted by number of vacant bays.</p>
+    <div class="tablewrap">
+      <table data-source="segments" data-row-key="seg" id="street-table">
+        <thead><tr><th data-field="street">Street</th><th data-field="block">Between</th><th data-field="area">Area</th><th class="n" data-field="typical_rate">Est. $/h</th><th class="n" data-field="bays">Bays</th><th class="n">Vacant now</th><th class="n">Reporting</th><th>Share free</th></tr></thead>
+        <tbody data-draw="streettable"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <details id="notes">
+    <summary>How this was built, and what to watch for</summary>
+    <ul>
+      <li>Source: the City of Melbourne 2019 on-street car parking sensor archive (42.7 million arrival/departure intervals). Each bay’s state was sampled every 15 minutes from 06:00 to 22:00, Melbourne local time. A bay is “vacant” if its sensor reported no vehicle at that instant, “occupied” if it reported one, and grey if no interval covered that instant (sensor not yet installed, offline, or removed).</li>
+      <li>Sensors that replaced one another in the same bay were merged by bay id. Intervals flagged as stuck sensors (single readings lasting days) were dropped.</li>
+      <li>The 2019 archive has no coordinates. Bays are placed on the map along their street block (matched by street name and the two cross streets to today’s road corridors), ordered by street marker number and pushed to the signed side of the street. Positions are therefore approximate within the block; the block itself is correct. 142 bays on blocks that no longer exist are counted in the city totals but not drawn.</li>
+      <li>“Typical” colours use the 2019 average for the selected day type (weekday, Saturday, or Sunday and Victorian public holidays) and hour.</li>
+      <li>Prices are estimates. The City’s 2018–19 budget set on-street rates at $7.00/h in the central city and $4.00/h (≤2h), $2.50/h (3h), $2.20/h (4h) outside it, phased in during the second half of 2018 (ABC News, 15 May 2018). Each bay’s rate here comes from its 2019 sign (meter or ticket) and whether its block is inside the Hoddle Grid. Loading zones, disabled bays and unmetered bays are counted as free. Actual meter rates could differ by block and time of day.</li>
+      <li>Restriction signs come from the most-seen sign for each sensor in 2019; time limits from the City’s current bay-restriction table where the sign was blank, so a few may differ from 2019.</li>
+    </ul>
+  </details>
+</div>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
