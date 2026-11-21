@@ -4,6 +4,23 @@
     area_hour: 'area_hour.csv', price_hour: 'price_hour.csv', prices_2019: 'prices_2019.csv' };
   for (let i = 1; i <= 12; i++) { const m = String(i).padStart(2, '0'); FILES['status_' + m] = 'status_2019_' + m + '.csv'; }
   const DATA_DIR = window.PK_DATA_DIR || '../';   // folder holding the CSV files
+  // Load data/<name>.js (works from GitHub Pages, a local server, or a double-clicked file://), falling back to the .csv
+  function loadCsv(name) {
+    return new Promise((resolve, reject) => {
+      const store = (window.PK_CSV = window.PK_CSV || {});
+      if (store[name]) return resolve(store[name]);
+      const sc = document.createElement('script');
+      sc.src = DATA_DIR + name.replace(/\.csv$/, '.js');
+      sc.onload = () => store[name] ? resolve(store[name]) : reject(new Error('empty ' + name));
+      sc.onerror = () => fetch(DATA_DIR + name).then((r) => { if (!r.ok) throw new Error(r.status + ' ' + r.statusText); return r.text(); }).then(resolve, reject);
+      document.head.appendChild(sc);
+    });
+  }
+  function showError(msg) {
+    let b = document.getElementById('pk-load-error');
+    if (!b) { b = document.createElement('div'); b.id = 'pk-load-error'; b.style.cssText = 'margin:12px 0;padding:12px 16px;border-radius:8px;background:#7a1f1f;color:#fff;font:14px system-ui'; const r = document.getElementById('dash-root'); r.insertBefore(b, r.firstChild); }
+    b.textContent = msg;
+  }
   const DATA = {}, CALCS = {}, DRAWS = {}, MADE = new WeakMap();
   let queued = false;
   const schedule = () => { if (queued) return; queued = true; requestAnimationFrame(() => { queued = false; runAll(); }); };
@@ -20,9 +37,9 @@
       if (DATA[id]) return DATA[id];
       if (!FILES[id]) return { status: 'missing', data: [] };
       DATA[id] = { status: 'loading', data: [] };
-      fetch(DATA_DIR + FILES[id]).then((r) => { if (!r.ok) throw new Error(r.status + ' ' + r.statusText); return r.text(); })
+      loadCsv(FILES[id])
         .then((t) => { const rows = d3.csvParse(t, (r) => { for (const k in r) if (r[k] === '') r[k] = null; return r; }); DATA[id] = { status: 'ok', data: rows }; schedule(); })
-        .catch((e) => { DATA[id] = { status: 'error', data: [], message: String(e) }; console.error('Could not load ' + FILES[id], e); schedule(); });
+        .catch((e) => { DATA[id] = { status: 'error', data: [], message: String(e) }; console.error('Could not load ' + FILES[id], e); showError('Could not load data file "' + DATA_DIR + FILES[id] + '". Check that the data folder sits next to index.html.'); schedule(); });
       return DATA[id];
     },
     calc(id, o) { CALCS[id] = o; },

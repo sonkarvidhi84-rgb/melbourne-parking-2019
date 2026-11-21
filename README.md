@@ -7,6 +7,6 @@ Pick a date and time, zoom the map, and click a street block or bay to see its a
 - `index.html`, `style.css`, `app.js`: the dashboard
 - `dash-lite.js`: small data loader
 - `d3.min.js`: D3 v7.9.0
-- `data/`: the CSV files the dashboard reads
+- `data/`: the data files (CSV text wrapped in .js so the page also works when opened directly from disk)
 
 Bay positions are approximate within their street block (the 2019 archive has no coordinates). Hourly prices are estimates from 2019 signs and the City of Melbourne 2018–19 budget rates.
