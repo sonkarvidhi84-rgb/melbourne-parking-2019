@@ -35,6 +35,7 @@
         <option value="moment">Status at this moment</option>
         <option value="typical">Typical for this day type and hour</option>
         <option value="landuse">Land-use type of the area</option>
+        <option value="price">Parking price at this moment</option>
       </select>
     </label>
     <label class="ctl">Show
@@ -57,7 +58,7 @@
   </section>
 
   <section class="mapgrid" id="map-section">
-    <div class="card mapbox" id="map" data-source="bays segments streets area_landuse">
+    <div class="card mapbox" id="map" data-source="bays segments streets area_landuse bay_price">
       <div class="maptools">
         <button type="button" class="pkbtn" id="pk-zin" aria-label="Zoom in">+</button>
         <button type="button" class="pkbtn" id="pk-zout" aria-label="Zoom out">−</button>
@@ -70,6 +71,14 @@
         <div class="row"><span class="sw" style="background: #9aa0a6"></span>No sensor reading</div>
         <div class="row"><span>Full</span><span class="grad"></span><span>Free</span></div>
         <div class="muted">Block shading and “typical” colours = share of bays free</div>
+      </div>
+      <div class="legend" id="map-legend-price" hidden>
+        <div class="row"><span class="sw" data-price-band="4"></span>$7.00 per hour</div>
+        <div class="row"><span class="sw" data-price-band="3"></span>$4.00 per hour</div>
+        <div class="row"><span class="sw" data-price-band="2"></span>$2.50 per hour</div>
+        <div class="row"><span class="sw" data-price-band="1"></span>$2.20 per hour</div>
+        <div class="row"><span class="sw" data-price-band="0"></span>Free at this moment</div>
+        <div class="muted">Hourly price at the chosen date and time, from each bay’s 2019 sign</div>
       </div>
       <div class="legend" id="map-legend-lu" hidden>
         <div class="row"><span class="sw" data-lu="0"></span>CBD office core</div>
@@ -172,6 +181,56 @@
     </div>
   </section>
 
+  <section class="card" id="price-time-card">
+    <h2>How parking prices change through the day</h2>
+    <p class="sub">Each bay’s fee follows its 2019 sign: the hourly rate applies only on the days and between the times shown, and the bay is free at other times. On public holidays, signs that name days of the week don’t apply, so those bays are free all day (City of Melbourne rule).</p>
+    <p class="lead" data-draw="price-takeaway">—</p>
+    <div class="seg-select">
+      <span class="muted">Day</span>
+      <select class="dash-select" id="pk-price-dt" aria-label="Day for price charts">
+        <option value="weekday">Weekday</option>
+        <option value="saturday">Saturday</option>
+        <option value="sunday">Sunday</option>
+        <option value="holiday">Public holiday</option>
+      </select>
+      <button type="button" class="pkbtn" id="pk-show-price">Colour the map by price now</button>
+    </div>
+    <h2 style="margin-top: var(--cds-gap-sm)">Bays charging each price, every 15 minutes</h2>
+    <div class="chart" data-draw="pricestack" data-source="price_slots" style="min-height: 260px"></div>
+    <div class="muted" style="display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: var(--cds-gap-xs)">
+      <span><span class="sw" data-price-band="4"></span> $7.00/h</span>
+      <span><span class="sw" data-price-band="3"></span> $4.00/h</span>
+      <span><span class="sw" data-price-band="2"></span> $2.50/h</span>
+      <span><span class="sw" data-price-band="1"></span> $2.20/h</span>
+      <span><span class="sw" data-price-band="0"></span> Free</span>
+    </div>
+    <p class="sub" style="margin-top: var(--cds-gap-xs)">The vertical line is the time on the slider. Click the chart to move the map to that time. Click any bay on the map to see its own price through the day.</p>
+    <div class="two" style="margin-top: var(--cds-gap-md)">
+      <div>
+        <h2>Average price by type of area</h2>
+        <p class="sub">Mean hourly price of all sensor bays in each type of area; free bays count as $0.</p>
+        <div class="chart" data-draw="priceavg" data-source="price_landuse" style="min-height: 240px"></div>
+        <div class="muted" style="display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: var(--cds-gap-xs)">
+          <span><span class="sw" data-lu="0"></span> CBD office core</span>
+          <span><span class="sw" data-lu="1"></span> CBD mixed</span>
+          <span><span class="sw" data-lu="2"></span> Shopping &amp; dining</span>
+          <span><span class="sw" data-lu="3"></span> Mixed-use</span>
+          <span><span class="sw" data-lu="4"></span> Mainly residential</span>
+          <span><span class="sw" data-lu="5"></span> Health &amp; government</span>
+        </div>
+      </div>
+      <div>
+        <h2>When paid bays charge</h2>
+        <div class="tablewrap" style="max-height: 340px">
+          <table data-source="price_schedules" data-row-key="schedule" id="price-sched-table">
+            <thead><tr><th data-field="rate_per_hour">Rate</th><th data-field="days">Days</th><th data-field="hours">Hours</th><th data-field="public_holidays">Public holidays</th><th class="n" data-field="hours_per_week">Paid hours / week</th><th class="n" data-field="bays">Bays</th></tr></thead>
+            <tbody data-draw="pricesched"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="two" id="price-section">
     <div class="card">
       <h2>Price vs demand: how full each price band gets</h2>
@@ -225,6 +284,7 @@
       <li>“Typical” colours use the 2019 average for the selected day type (weekday, Saturday, or Sunday and Victorian public holidays) and hour.</li>
       <li>Prices are estimates. The City’s 2018–19 budget set on-street rates at $7.00/h in the central city and $4.00/h (≤2h), $2.50/h (3h), $2.20/h (4h) outside it, phased in during the second half of 2018 (ABC News, 15 May 2018). Each bay’s rate here comes from its 2019 sign (meter or ticket) and whether its block is inside the Hoddle Grid. Loading zones, disabled bays and unmetered bays are counted as free. Actual meter rates could differ by block and time of day.</li>
       <li>Restriction signs come from the most-seen sign for each sensor in 2019; time limits from the City’s current bay-restriction table where the sign was blank, so a few may differ from 2019.</li>
+      <li>Price by time: each bay’s days and hours of charging are read from its 2019 sign (for example “2P MTR M-SAT 7:30-20:30” = charged Monday to Saturday, 07:30–20:30). The rate is the estimated 2019 rate above. Loading zones, disabled bays, permit areas and time-limit-only bays are free. On Victorian public holidays, signs that state days of the week don’t apply (City of Melbourne rule), so those bays are free. Paid bays whose 2019 sign was blank or a No Parking panel (9 bays) are assumed to charge Mon–Sat 07:30–18:30.</li>
       <li>Land-use types: every 2019 business in the City of Melbourne land-use census (CLUE) was assigned to the nearest sensor bay within 120 m and grouped by industry. Each area’s type comes from that mix and from how many businesses it has per bay. The census file counts businesses, not homes, so “Mainly residential” and “Mixed-use” are inferred from few businesses per bay outside the CBD; the City’s 2019 residential-dwellings data would confirm them. “Domain” is the residential streets of South Yarra west, not the parkland. The area the data calls “All” is mostly the back streets of East Melbourne and Jolimont (341 of its 367 bays). Kensington has a single bay.</li>
     </ul>
   </details>
@@ -234,5 +294,6 @@
 <script src="app.js"></script>
 <script src="landuse.js"></script>
 <script src="landuse2.js"></script>
+<script src="pricing.js"></script>
 </body>
 </html>

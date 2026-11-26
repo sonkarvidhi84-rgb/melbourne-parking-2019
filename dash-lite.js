@@ -1,7 +1,7 @@
 // Minimal stand-in for the claude.ai dashboard runtime ("dash"), so the page runs locally.
 (function () {
   const FILES = { bays: 'bays.csv', segments: 'segments.csv', streets: 'streets.csv', city_slots: 'city_slots.csv',
-    area_hour: 'area_hour.csv', price_hour: 'price_hour.csv', prices_2019: 'prices_2019.csv', area_landuse: 'area_landuse.csv' };
+    area_hour: 'area_hour.csv', price_hour: 'price_hour.csv', prices_2019: 'prices_2019.csv', area_landuse: 'area_landuse.csv', bay_price: 'bay_price.csv' };
   for (let i = 1; i <= 12; i++) { const m = String(i).padStart(2, '0'); FILES['status_' + m] = 'status_2019_' + m + '.csv'; }
   const DATA_DIR = window.PK_DATA_DIR || '../';   // folder holding the CSV files
   const DATA = {}, CALCS = {}, DRAWS = {}, MADE = new WeakMap();

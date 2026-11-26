@@ -216,7 +216,7 @@ dash.calc('price_peak', {
           [smap ? `Now: ${c[0]} vacant of ${c[1]} reporting` : 'Status loading…'], [tv == null ? 'Typical: no data' : 'Typical ' + PK.pct(tv) + ' free at this hour', 'm']]; };
       made.bayTip = (d) => { const st = PK.bayState(smap, d.bay); const p = PK.profVal(d.prof, dt, hr);
         const lu = PK.luRow ? PK.luRow(d.area) : null;
-        return [['Bay ' + d.bay + ' · marker ' + d.marker], [d.street + ' (' + d.between1 + ' – ' + d.between2 + ')', 'm'], [d.area + (lu ? ' · ' + lu.land_use : ''), 'm'], [d.sign || 'No sign recorded', 'm'],
+        return [['Bay ' + d.bay + ' · marker ' + d.marker], [d.street + ' (' + d.between1 + ' – ' + d.between2 + ')', 'm'], [d.area + (lu ? ' · ' + lu.land_use : ''), 'm'], [PK.priceText ? PK.priceText(d.bay) : ''], [d.sign || 'No sign recorded', 'm'],
           [['No reading', 'Vacant', 'Occupied'][st] + ' at ' + PK.slotLabel(PK.slot)], [p == null ? '' : 'Usually occupied ' + PK.pct(p) + ' of the time at this hour', 'm']]; };
       const LUm = PK.luMap ? PK.luMap() : null;
       const luFill = (area) => { const i = LUm && LUm.get(area); return i == null ? 'var(--cds-chart-muted)' : PK.luCol(i); };
@@ -225,11 +225,13 @@ dash.calc('price_peak', {
       made.gSegs.selectAll('path').style('fill', (d) => {
         let f;
         if (PK.mode === 'landuse') return luFill(d.area);
+        if (PK.mode === 'price') return PK.priceSegFill ? PK.priceSegFill(d.seg) : 'var(--cds-chart-muted)';
         if (PK.mode === 'typical') f = PK.profVal(d.prof, dt, hr); else { const c = segCount.get(d.seg); f = c && c[1] ? c[0] / c[1] : null; }
         return f == null ? 'var(--cds-chart-muted)' : PK.freeColor(f);
       }).style('fill-opacity', PK.layer === 'segs' ? 0.9 : 0.45);
       made.gBays.selectAll('circle').style('fill', (d) => {
         if (PK.mode === 'landuse') return luFill(d.area);
+        if (PK.mode === 'price') return PK.priceFill ? PK.priceFill(d.bay) : '#9aa0a6';
         if (PK.mode === 'typical') { const p = PK.profVal(d.prof, dt, hr); return p == null ? '#9aa0a6' : PK.freeColor(1 - p); }
         return PK.stateFill[PK.bayState(smap, d.bay)];
       });
@@ -298,6 +300,7 @@ dash.calc('price_peak', {
       lineChart(chart, [0, 1, 2].map((t) => ({ vals: d3.range(16).map((h) => { const p = PK.profVal(b.prof, t, h + 6); return p == null ? null : 1 - p; }), xs, color: dash.colors[t], width: t === dt ? 2.5 : 1.2, dash: t === dt ? null : '3 3' })), { label: 'Share of time this bay is free by hour for weekday, Saturday and Sunday' });
       const lg = host.append('div').attr('class', 'muted');
       ['Weekday', 'Saturday', 'Sun/holiday'].forEach((n, t) => { lg.append('span').style('color', dash.colors[t]).text('● '); lg.append('span').text(n + '  '); });
+      if (PK.priceDetail) PK.priceDetail(host, b);
       host.append('button').attr('class', 'pkbtn').text('Show its street block').on('click', () => PK.select({ type: 'seg', id: b.seg }));
       return;
     }
@@ -321,6 +324,7 @@ dash.calc('price_peak', {
     host.append('div').attr('class', 'muted').text('Share of this block’s bays free through the day:');
     lineChart(host.append('div'), [{ vals: smap ? day : [], color: dash.colors[0] }, { vals: typ, xs: d3.range(16).map((h) => h * 4 + 2), color: 'var(--cds-chart-muted)', dash: '4 3', width: 1.5 }], { label: 'Share of bays free on this block through the selected day, with the typical pattern' });
     const lg = host.append('div').attr('class', 'muted'); lg.append('span').style('color', dash.colors[0]).text('— '); lg.append('span').text(PK.fmtDate(PK.date) + '   '); lg.append('span').text('- - typical ' + ['weekday', 'Saturday', 'Sunday/holiday'][dt]);
+    if (PK.priceDetailSeg) PK.priceDetailSeg(host, bays);
     host.append('div').attr('class', 'muted').text('Bays on this block (click one):');
     const chips = host.append('div').attr('class', 'chips');
     bays.forEach((b) => chips.append('div').attr('class', 'chip').style('background', PK.stateFill[PK.bayState(smap, b.bay)]).attr('title', 'Bay ' + b.bay + ' · ' + b.marker + ' · ' + (b.sign || '')).on('click', () => PK.select({ type: 'bay', id: String(b.bay) })));
